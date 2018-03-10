@@ -36,6 +36,9 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Added lemmas predicted by UDPipe 1.2, trained on UD Turkish 2.0
+    (the UDPipe output from CoNLL 2017 shared task).
 * 2017-11-15 v2.1
   * First official release after it was used as a surprise dataset in the
     CoNLL 2017 shared task.
@@ -109,7 +112,7 @@ Data available since: UD v2.1
 License: CC BY-SA 3.0
 Includes text: yes
 Genre: news wiki
-Lemmas: not available
+Lemmas: automatic
 UPOS: converted from manual
 XPOS: not available
 Features: converted from manual

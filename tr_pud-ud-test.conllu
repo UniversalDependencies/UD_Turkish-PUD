@@ -661,7 +661,7 @@
 7	belki	belki	ADV	RB	_	10	advmod	_	_
 8	de	de	ADV	RB	_	7	advmod:emph	_	_
 9-10	Knightley'inkinin	_	_	_	_	_	_	_	_
-9	Knightley'in	_	PROPN	PROPN	Case=Gen|Number=Sing	10	dep:ig	_	Proper=True
+9	Knightley'in	_	PROPN	PROPN	Case=Gen|Number=Sing	10	compound	_	Proper=True
 10	kinin	_	PRON	PRF	Case=Gen|Number=Sing	4	appos	_	_
 11	de	de	ADV	RB	_	10	advmod:emph	_	SpaceAfter=No
 12	)	)	PUNCT	)	_	10	punct	_	_
@@ -14864,7 +14864,7 @@
 16	ve	ve	CCONJ	CCONJ	_	27	cc	_	_
 17	Cumberland	Cumberland	PROPN	PROPN	Case=Nom|Number=Sing	27	nsubj	_	Proper=True
 18-19	sonraki	_	_	_	_	_	_	_	_
-18	sonra	sonra	ADP	IN	_	19	dep:ig	_	_
+18	sonra	sonra	ADP	IN	_	19	compound	_	_
 19	ki	ki	ADP	IN	_	20	case	_	_
 20	yıl	yıl	NOUN	NN	Number=Sing	27	obl:tmod	_	_
 21	genç	genç	ADJ	JJ	Number=Sing	23	amod	_	_
@@ -16766,8 +16766,8 @@
 8	Mash'ı	Mash	PROPN	PROPN	Case=Acc|Number=Sing	7	flat:name	_	Proper=True
 9	vurması	vur	NOUN	VN	Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Ger	10	compound	_	_
 10-11	örneğindeki	_	_	_	_	_	_	_	_
-10	örneğinde	örneğ	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	dep:ig	_	_
-11	ki	ki	PRON	PRF	_	19	obl	_	_
+10	örneğinde	örneğ	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	19	obl	_	_
+11	ki	ki	PRON	PRF	_	10	case	_	_
 12	gibi	gibi	ADP	IN	_	11	case	_	_
 13	en	en	ADV	RB	_	14	advmod	_	_
 14	azından	az	NOUN	NN	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=2	17	advmod	_	_
@@ -17348,7 +17348,7 @@
 1	Kirleticiler	Kirletici	NOUN	VN	Case=Nom|Number=Plur|Polarity=Pos	18	csubj	_	_
 2	küçük	küçük	ADJ	JJ	Number=Sing	3	amod	_	_
 3-4	yaştakilerin	_	_	_	_	_	_	_	_
-3	yaşta	_	NOUN	NN	Case=Loc|Number=Sing	4	dep:ig	_	_
+3	yaşta	_	NOUN	NN	Case=Loc|Number=Sing	4	compound	_	_
 4	kilerin	_	NOUN	NN	Case=Gen|Number=Plur	6	nmod:poss	_	_
 5	gelişmemiş	geliş	ADJ	VJ	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	6	acl:relcl	_	_
 6	akciğerlerine	akciğer	NOUN	NN	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
@@ -21150,7 +21150,7 @@
 12	hale	hal	NOUN	NN	Case=Dat|Number=Sing	13	iobj	_	_
 13	getirilmiş	getir	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	6	conj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	_	_
-15	sürgün	sürgün	NOUN	NN	Number=Sing	17	dep:ig	_	_
+15	sürgün	sürgün	NOUN	NN	Number=Sing	17	compound	_	_
 16-17	edilenlerin	_	_	_	_	_	_	_	_
 16	edilen	_	NOUN	VN	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	15	fixed	_	_
 17	lerin	_	X	GW	Case=Gen|Number=Plur|Person=3	18	nmod:poss	_	_

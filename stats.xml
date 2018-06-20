@@ -7,27 +7,27 @@
   <size>
     <total><sentences>1000</sentences><tokens>16535</tokens><words>16886</words><fused>351</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
+  <lemmas unique="4481" /><!-- ., ,, bir, ve, ol, bu, ki, et, ", için, i, de, olarak, yıl, daha -->
   <forms unique="7350" /><!-- ., ,, bir, ve, ki, ", bu, için, olarak, daha, ile, de, çok, da, en -->
   <fusions unique="277" /><!-- arasındaki, sonraki, üzerindeki, bölgedeki, sahiptir, Üniversitesi'ndeki, önceki, aittir, ayındaki, değildi, dünyadaki, hakkındaki, ilgilidir, vardır, yaşındaki -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">1744</tag><!-- _ -->
-    <tag name="ADP">699</tag><!-- _ -->
-    <tag name="ADV">851</tag><!-- _ -->
-    <tag name="AUX">525</tag><!-- _ -->
-    <tag name="CCONJ">493</tag><!-- _ -->
-    <tag name="DET">685</tag><!-- _ -->
-    <tag name="INTJ">2</tag><!-- _ -->
-    <tag name="NOUN">6385</tag><!-- _ -->
-    <tag name="NUM">376</tag><!-- _ -->
-    <tag name="PRON">307</tag><!-- _ -->
-    <tag name="PROPN">1526</tag><!-- _ -->
-    <tag name="PUNCT">2149</tag><!-- _ -->
-    <tag name="SCONJ">13</tag><!-- _ -->
-    <tag name="SYM">6</tag><!-- _ -->
-    <tag name="VERB">1019</tag><!-- _ -->
-    <tag name="X">106</tag><!-- _ -->
+    <tag name="ADJ">1744</tag><!-- _, büyük, et, yeni, ilk, son, yap, sahip, fazla, aynı -->
+    <tag name="ADP">699</tag><!-- ki, için, ile, gibi, kadar, sonra, birlikte, göre, ardından, karşı -->
+    <tag name="ADV">851</tag><!-- daha, de, da, en, ancak, çok, geri, ayrıca, _, sadece -->
+    <tag name="AUX">525</tag><!-- ol, i, olarak, _, değil, et, kal, mi, olacak, gel -->
+    <tag name="CCONJ">493</tag><!-- ve, veya, ile, hem, ya, ancak, ama, and, çünkü -->
+    <tag name="DET">685</tag><!-- bir, bu, her, diğer, birçok, bazı, tüm, o, birkaç, şu -->
+    <tag name="INTJ">2</tag><!-- hey, ıyyk -->
+    <tag name="NOUN">6385</tag><!-- _, yıl, ara, yer, bölge, et, gün, taraf, ol, zaman -->
+    <tag name="NUM">376</tag><!-- iki, _, üç, bir, on, ikinci, milyon, 10, altı, dört -->
+    <tag name="PRON">307</tag><!-- bu, kendi, o, biri, bura, ne, ben, ora, biz, şey -->
+    <tag name="PROPN">1526</tag><!-- _, Çin, Amerika, Avrupa, İngiliz, Trump, Akdeniz, Avustralya, Roma, Abd -->
+    <tag name="PUNCT">2149</tag><!-- ., ,, ", _, (, ), -, ;, :, ? -->
+    <tag name="SCONJ">13</tag><!-- ki, eğer -->
+    <tag name="SYM">6</tag><!-- _, % -->
+    <tag name="VERB">1019</tag><!-- et, ver, başla, de, yap, al, söyle, gel, ol, göster -->
+    <tag name="X">106</tag><!-- the, _, of, North, Association, Mps, My, News, Really, Street -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="56">
@@ -83,13 +83,13 @@
     <feat name="Tense" value="Pres" upos="ADJ,ADP,ADV,AUX,NOUN,PROPN,VERB">974</feat><!-- dir, dır, değil, olsa, ediyor, tir, büyüme, değildir, inanılmaz, olmasına -->
     <feat name="VerbForm" value="Conv" upos="ADV,AUX,NOUN,VERB">24</feat><!-- olmadan, yken, ederken, ken, akarken, bulunmadan, durmadan, düşünmeden, etkilenmeden, etmeden -->
     <feat name="VerbForm" value="Ger" upos="ADJ,AUX,NOUN,VERB">465</feat><!-- büyüme, olmasına, savunma, edilmesi, soruşturma, çalışma, çıkmaya, etmeye, alma, etmesi -->
-    <feat name="VerbForm" value="Part" upos="ADJ,NOUN,VERB">14</feat><!-- gerçekleşen, gerçekleştirilen, bayağılaştırdıklarını, edilen, evcilleştirilenleştirilen, gerçekleştiren, gerçekleştiği, gerçekleştiğinde, sertleşen, sorgulayacakları -->
+    <feat name="VerbForm" value="Part" upos="ADJ,NOUN,VERB">14</feat><!-- gerçekleşen, gerçekleştirilen, b​a​y​a​ğ​ı​l​a​ş​t​ı​r​d​ı​k​l​a​r​ı​n​ı, edilen, e​v​c​i​l​l​e​ş​t​i​r​i​l​e​n​l​e​ş​t​i​r​i​l​e​n, gerçekleştiren, gerçekleştiği, gerçekleştiğinde, sertleşen, sorgulayacakları -->
     <feat name="Voice" value="Cau" upos="ADJ,AUX,NOUN,VERB">86</feat><!-- geçirdi, anlatır, belirtti, çıkardı, başlattı, değiştirdi, geliştirdi, adlandırdı, adlandırmışlardır, anlatıyor -->
-    <feat name="Voice" value="CauPass" upos="ADJ,NOUN,VERB">29</feat><!-- gerçekleştirilen, adlandırılır, başlatıldı, bildirildi, bitirildi, değerlendirilmektedir, değiştirildi, durdurulamazdı, durduruldu, etkinleştirilecek -->
+    <feat name="Voice" value="CauPass" upos="ADJ,NOUN,VERB">29</feat><!-- gerçekleştirilen, adlandırılır, başlatıldı, bildirildi, bitirildi, d​e​ğ​e​r​l​e​n​d​i​r​i​l​m​e​k​t​e​d​i​r, değiştirildi, durdurulamazdı, durduruldu, etkinleştirilecek -->
     <feat name="Voice" value="Pass" upos="ADJ,ADV,AUX,NOUN,VERB">247</feat><!-- edildi, edilmiştir, inanılmaz, edilmesi, edilmiş, yapıldı, görülür, alınmasının, bölünmüştür, edilemez -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="42">
+  <deps unique="41">
     <dep name="acl:relcl">514</dep>
     <dep name="advcl">405</dep>
     <dep name="advmod">1716</dep>
@@ -97,17 +97,16 @@
     <dep name="amod">1224</dep>
     <dep name="appos">36</dep>
     <dep name="aux">21</dep>
-    <dep name="case">693</dep>
+    <dep name="case">694</dep>
     <dep name="cc">519</dep>
     <dep name="cc:preconj">8</dep>
     <dep name="ccomp">30</dep>
     <dep name="clf">10</dep>
-    <dep name="compound">2008</dep>
+    <dep name="compound">2012</dep>
     <dep name="conj">640</dep>
     <dep name="cop">517</dep>
     <dep name="csubj">115</dep>
     <dep name="dep">3</dep>
-    <dep name="dep:ig">5</dep>
     <dep name="det">671</dep>
     <dep name="det:predet">10</dep>
     <dep name="discourse">5</dep>

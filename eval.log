@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Turkish-PUD:
-commit 199c4c83777333b6df6c40beefc7f394f66e3fa8
-Merge: 89e5d61 f08dd40
+commit 45b1ec5fbdee4ffa0daa84a3e158043178040ef6
+Merge: 4a20eac 87d27a0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 16886 of 16886 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.65296975249462.
@@ -19,7 +19,7 @@ Features: 12721 out of 16886 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 2531 bugs.
+Udapi: found 2310 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 16886 words.
 Genres: found 2 out of 17 known.
 validate.py --lang tr --max-err=10 UD_Turkish-PUD/tr_pud-ud-test.conllu

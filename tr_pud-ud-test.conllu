@@ -8918,7 +8918,7 @@
 13	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	14	det	_	_
 14	devlet	devlet	NOUN	NN	Number=Sing	8	conj	_	_
 15	olarak	ol	AUX	CRB	Polarity=Pos	8	cop	_	_
-16	mı	mı	AUX	AUX	Number=Sing|Person=3	8	aux	_	_
+16	mı	mi	AUX	AUX	Number=Sing|Person=3	8	aux	_	_
 17	gireceği	gir	NOUN	VN	Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	18	nmod:poss	_	_
 18	sorusu	soru	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	19	nsubj	_	_
 19	yer	yer	NOUN	NN	Number=Sing	0	root	_	_
@@ -15876,7 +15876,7 @@
 1	Çalar	Ça	ADJ	VJ	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	compound	_	_
 2	saatinizle	saatiniz	NOUN	NN	Case=Ins|Number=Sing|Number[psor]=Plur|Person[psor]=2	3	obl	_	_
 3	tartışıyor	tartış	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-4	musunuz	mu	AUX	AUX	Number=Plur|Person=2	3	aux	_	SpaceAfter=No
+4	musunuz	mi	AUX	AUX	Number=Plur|Person=2	3	aux	_	SpaceAfter=No
 5	?	?	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n02050052
@@ -16518,7 +16518,7 @@
 6	çoğu	çok	NOUN	NN	Case=Nom|Number=Sing	9	nsubj	_	_
 7	tartışma	tartış	NOUN	VN	Aspect=Perf|Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Ger	9	advcl	_	_
 8	olmadan	ol	AUX	CRB	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Conv	7	cop	_	_
-9	çözülebilse	çözülebil	VERB	VB	Mood=AbilCnd|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
+9	çözülebilse	çözülebil	VERB	VB	Mood=CndPot|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	_
 10	de	de	ADV	RB	_	9	advmod:emph	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	9	punct	_	_
 

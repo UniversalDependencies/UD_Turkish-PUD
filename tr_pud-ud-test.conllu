@@ -400,7 +400,7 @@
 11	yalnız	yalnız	ADJ	JJ	Number=Sing	13	amod	_	_
 12	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	13	det	_	_
 13	domuz	domuz	NOUN	NN	Number=Sing	7	conj	_	_
-14	değildi	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	13	cop	_	SpaceAfter=No
+14	değildi	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	13	aux	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = n01009054
@@ -707,7 +707,7 @@
 12	zeka	zeka	NOUN	NN	Number=Sing	13	nmod:poss	_	_
 13	arayüzüne	arayüz	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obj	_	_
 14	sahip	sahip	ADJ	JJ	Number=Sing	0	root	_	_
-15	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	14	cop	_	SpaceAfter=No
+15	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = n01017005
@@ -2112,7 +2112,7 @@
 3	duyduğu	duy	ADJ	VJ	Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	4	acl	_	_
 4	şey	şey	PRON	PRI	Case=Nom|Number=Sing	5	nsubj	_	_
 5	bu	bu	PRON	PRD	Definite=Def|Number=Sing|Polarity=Pos	0	root	_	_
-6	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	5	cop	_	SpaceAfter=No
+6	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	5	aux	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
 8	millet	millet	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	8	punct	_	_
@@ -2200,7 +2200,7 @@
 4	bu	bu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	5	det	_	_
 5	aletlere	aletlere	NOUN	NN	Case=Dat|Number=Plur	6	obl	_	_
 6	sahip	sahip	ADJ	JJ	Number=Sing	17	parataxis	_	_
-7	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	6	cop	_	SpaceAfter=No
+7	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	6	aux	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	6	punct	_	_
 9	yalnızca	yalnızca	ADV	RB	_	17	advmod	_	_
 10	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	12	det	_	_
@@ -3019,7 +3019,7 @@
 3	internet	internet	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
 4	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	5	det	_	_
 5	lüks	lüks	NOUN	NN	Number=Sing	0	root	_	_
-6	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	5	cop	_	SpaceAfter=No
+6	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	5	aux	_	SpaceAfter=No
 7	;	;	PUNCT	,	_	10	punct	_	_
 8	hayati	hayati	ADJ	JJ	Number=Sing	10	amod	_	_
 9	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	10	det	_	_
@@ -3230,7 +3230,7 @@
 20	için	için	ADP	IN	_	19	case	_	_
 21	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	22	det	_	_
 22	sebep	sebep	NOUN	NN	Number=Sing	8	conj	_	_
-23	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	22	cop	_	SpaceAfter=No
+23	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	22	aux	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = n01060069
@@ -3495,7 +3495,7 @@
 11	öldürmekten	öldür	NOUN	VN	Aspect=Perf|Case=Abl|Mood=Ind|Tense=Pres|VerbForm=Ger|Voice=Cau	13	obl	_	_
 12	daha	daha	ADV	RB	_	13	advmod	_	_
 13	mantıklı	mantıklı	ADJ	JJ	Number=Sing	17	nmod:poss	_	_
-14	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	13	cop	_	SpaceAfter=No
+14	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	13	aux	_	SpaceAfter=No
 15	.	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
 16	"	_	PUNCT	''	_	13	punct	_	_
 17	yorumunu	yorum	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	18	obj	_	_
@@ -3594,7 +3594,7 @@
 8	,	,	PUNCT	,	_	7	punct	_	_
 9	hepsi	hepsi	PRON	PRI	Number=Sing|Polarity=Pos	10	nsubj	_	_
 10	gerçek	gerçek	NOUN	NN	Number=Sing	7	conj	_	_
-11	değildir	değil	AUX	NOMP	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	10	cop	_	SpaceAfter=No
+11	değildir	değil	AUX	NOMP	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = n01067023
@@ -3856,7 +3856,7 @@
 7	hakları	hak	NOUN	NN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	_
 8	artık	artık	ADV	RB	_	9	advmod	_	_
 9	garanti	garanti	NOUN	NN	Number=Sing	0	root	_	_
-10	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	9	cop	_	_
+10	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	9	aux	_	_
 11	miydi	mi	AUX	AUX	Number=Sing|Person=3|Tense=Past	9	aux:q	_	SpaceAfter=No
 12	?	?	PUNCT	.	_	9	punct	_	_
 
@@ -4376,7 +4376,7 @@
 20	mineral	mineral	NOUN	NN	Number=Sing	21	nmod:poss	_	_
 21	açısından	açı	NOUN	NN	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	22	obl	_	_
 22	zengin	zengin	ADJ	JJ	Number=Sing	11	conj	_	_
-23	değildir	değil	AUX	NOMP	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	22	cop	_	SpaceAfter=No
+23	değildir	değil	AUX	NOMP	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	22	aux	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = n01085008
@@ -6089,7 +6089,7 @@
 4	de	de	ADV	RB	_	3	advmod:emph	_	_
 5	kedinin	kedi	NOUN	NN	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	pijamaları	pijama	NOUN	NN	Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	_
-7	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	6	cop	_	SpaceAfter=No
+7	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = n01120008
@@ -6215,7 +6215,7 @@
 8	öldürme	öl	NOUN	VN	Aspect=Perf|Mood=Ind|Tense=Pres|VerbForm=Ger	9	nmod:poss	_	_
 9	içgüdüsü	içgüdü	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nmod:poss	_	_
 10	sonucu	sonuç	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
-11	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	10	cop	_	SpaceAfter=No
+11	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = n01123012
@@ -8187,7 +8187,7 @@
 24	güney	güney	NOUN	NN	Number=Sing	25	amod	_	_
 25	Sami'de	Sami	PROPN	PROPN	Case=Loc|Number=Sing	26	obl	_	Proper=True
 26	mevcut	mevcut	ADJ	JJ	Number=Sing	13	conj	_	_
-27	değildir	değil	AUX	NOMP	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	26	cop	_	SpaceAfter=No
+27	değildir	değil	AUX	NOMP	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	26	aux	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	26	punct	_	_
 
 # sent_id = w01014002
@@ -8869,7 +8869,7 @@
 9	özellikleri	özelliki	NOUN	NN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	11	nsubj	_	_
 10	kıyıya	kıyı	NOUN	NN	Case=Dat|Number=Sing	11	nmod	_	_
 11	paralel	paralel	ADJ	JJ	Number=Sing	4	conj	_	_
-12	değildir	değil	AUX	NOMP	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	11	cop	_	SpaceAfter=No
+12	değildir	değil	AUX	NOMP	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	11	aux	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = w01027035
@@ -9459,7 +9459,7 @@
 7	ötürü	ötürü	ADP	IN	_	6	case	_	_
 8	çok	çok	ADV	RB	_	9	advmod	_	_
 9	popüler	popü	ADJ	JJ	Number=Sing	0	root	_	_
-10	değillerdir	değil	AUX	NOMP	Mood=Gen|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	9	cop	_	SpaceAfter=No
+10	değillerdir	değil	AUX	NOMP	Mood=Gen|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = w01038016
@@ -10481,7 +10481,7 @@
 22	olmadığını	ol	AUX	VN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg	20	cop	_	_
 23	bilmek	bil	NOUN	VN	Aspect=Perf|Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Fut	24	csubj	_	_
 24	mümkün	mümkün	ADJ	JJ	Number=Sing	0	root	_	_
-25	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	24	cop	_	SpaceAfter=No
+25	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	24	aux	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = w01054107
@@ -15920,7 +15920,7 @@
 3	tanıtılmasının	tanıtılmas	NOUN	VN	Aspect=Perf|Case=Gen|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Ger|Voice=Pass	4	nmod:poss	_	_
 4	nedeni	neden	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 5	belli	belli	ADJ	JJ	Number=Sing	0	root	_	_
-6	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	5	cop	_	SpaceAfter=No
+6	değil	değil	AUX	NOMP	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n02058056
@@ -16268,7 +16268,7 @@
 24	sözleşmesiyle	sözleşme	NOUN	VN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	25	advcl	_	_
 25	belgelemesi	belgele	NOUN	VN	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Ger	16	conj	_	_
 26	sürpriz	sürpriz	NOUN	NN	Number=Sing	0	root	_	_
-27	değildir	değil	AUX	VB	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	26	cop	_	SpaceAfter=No
+27	değildir	değil	AUX	VB	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	26	aux	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	26	punct	_	_
 
 # sent_id = n03001007
@@ -17620,7 +17620,7 @@
 20	olup	ol	ADV	CRB	Polarity=Pos	21	advcl	_	_
 21	olmayacağı	ol	NOUN	VN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg	22	csubj	_	_
 22	belli	belli	ADJ	JJ	Number=Sing	13	conj	_	_
-23	değil	değil	AUX	VB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	22	cop	_	SpaceAfter=No
+23	değil	değil	AUX	VB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	22	aux	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = n05009025
@@ -19630,7 +19630,7 @@
 20	hangisinin	hangis	PRON	WP	Case=Gen|Number=Sing|PronType=Int	21	nsubj	_	_
 21	düşündüğü	düşün	NOUN	VN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	22	csubj	_	_
 22	kesin	kesin	ADJ	JJ	Number=Sing	0	root	_	_
-23	değildir	değil	AUX	VB	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	22	cop	_	SpaceAfter=No
+23	değildir	değil	AUX	VB	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	22	aux	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = w05001026

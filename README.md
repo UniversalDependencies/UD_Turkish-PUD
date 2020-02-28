@@ -35,7 +35,12 @@ employ ten-fold cross-validation.
 
 
 # Changelog
-
+* 2020-02-28
+  * Fixed malformed dependency relations including appos, flat, and conj.
+  * Fixed issues with regards to items değil and mi. They are encoded with the dependency aux.
+  * Fixed outdated morphological features.
+* 2019-08-03 
+  * Re-annotated by a team of from [TABILAB](http://http://tabilab.cmpe.boun.edu.tr/). The information with regards to their annotation can be found in [their LAW XIII paper](https://www.aclweb.org/anthology/W19-4019.pdf).
 * 2018-04-15 v2.2
   * Added lemmas predicted by UDPipe 1.2, trained on UD Turkish 2.0
     (the UDPipe output from CoNLL 2017 shared task).
@@ -45,6 +50,32 @@ employ ten-fold cross-validation.
 
 
 
+# Metadata
+
+```
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD v2.1
+License: CC BY-SA 3.0
+Includes text: yes
+Genre: news wiki
+Lemmas: automatic
+UPOS: converted from manual
+XPOS: not available
+Features: converted from manual
+Relations: manual native
+Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Cetin, Savas; Popel, Martin; Zeman, Daniel; Tyers, Francis; Çöltekin, Çağrı; Türk, Utku; Atmaca, Furkan; Özateş, Şaziye Betül; Köksal, Abdullatif; Öztürk Başaran, Balkız; Güngör, Tunga; Özgür, Arzucan
+Contributing: here
+Contact: zeman@ufal.mff.cuni.cz
+===============================================================================
+```
+
+# Original Annotation
+
+This treebank was originally annotated by Google, Inc. according to slightly
+modified Stanford Dependencies annotation guidelines. The following README was
+included with the original annotations.
+
+```
 ==================
 README FROM GOOGLE
 ==================
@@ -106,18 +137,4 @@ We are greatful to the many people who made this dataset possible:
 Fernando Pereira, Hans Uszkoreit, Aljoscha Burchardt, Vivien Macketanz,
 Ali Elkahky, Abhijit Barde, Tolga Kayadelen, ...
 
-
-=== Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.1
-License: CC BY-SA 3.0
-Includes text: yes
-Genre: news wiki
-Lemmas: automatic
-UPOS: converted from manual
-XPOS: not available
-Features: converted from manual
-Relations: converted from manual
-Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Cetin, Savas; Popel, Martin; Zeman, Daniel; Tyers, Francis; Çöltekin, Çağrı
-Contributing: here
-Contact: zeman@ufal.mff.cuni.cz
-===============================================================================
+```

@@ -104,7 +104,7 @@
     <dep name="case">692</dep>
     <dep name="cc">521</dep>
     <dep name="cc:preconj">8</dep>
-    <dep name="ccomp">172</dep>
+    <dep name="ccomp">173</dep>
     <dep name="clf">10</dep>
     <dep name="compound">309</dep>
     <dep name="compound:lvc">203</dep>
@@ -132,6 +132,6 @@
     <dep name="parataxis">15</dep>
     <dep name="punct">2147</dep>
     <dep name="root">1000</dep>
-    <dep name="xcomp">128</dep>
+    <dep name="xcomp">127</dep>
   </deps>
 </treebank>

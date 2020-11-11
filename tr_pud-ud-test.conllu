@@ -199,7 +199,7 @@
 2	yeri	yer	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	nsubj	_	_
 3	esasen	esas	ADV	RB	_	13	advmod	_	_
 4	Washington	Washington	PROPN	PROPN	Number=Sing	8	nmod:poss	_	Proper=True|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	punct	_	_
+5	,	,	PUNCT	,	_	6	punct	_	_
 6	H	h	X	FW	Number=Sing	4	flat	_	Proper=True
 7	Street	Street	X	FW	_	4	flat	_	Proper=True
 8-9	üzerindeki	_	_	_	_	_	_	_	_
@@ -394,7 +394,7 @@
 17	on	on	NUM	CD	Number=Sing	16	compound	_	_
 18	biri	biri	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	19	nsubj	_	_
 19	kullanılmıştı	kullan	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|Voice=Pass	0	root	_	SpaceAfter=No
-20	;	;	PUNCT	,	_	19	punct	_	_
+20	;	;	PUNCT	,	_	27	punct	_	_
 21	bu	bu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	22	det	_	_
 22	oran	oran	NOUN	NN	Case=Nom|Number=Sing	27	nsubj	_	_
 23	yıllarca	yıllarca	ADV	RB	_	27	advmod	_	_
@@ -1224,7 +1224,7 @@
 8	yalnızca	yalnızca	ADV	RB	_	9	advmod	_	_
 9	dinozorların	dinozor	NOUN	NN	Case=Gen|Number=Plur	14	nmod:poss	_	_
 10	değil	değil	ADV	RB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	9	advmod:emph	_	SpaceAfter=No
-11	,	,	PUNCT	,	_	10	punct	_	_
+11	,	,	PUNCT	,	_	13	punct	_	_
 12	birçok	birçok	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	13	det	_	_
 13	türün	tür	NOUN	NN	Case=Gen|Number=Sing	9	conj	_	_
 14	soyunun	soyu	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	nsubj	_	_
@@ -1279,7 +1279,7 @@
 14-15	hayattaydı	_	_	_	_	_	_	_	SpaceAfter=No
 14	hayatta	_	NOUN	NN	Case=Loc|Number=Sing	0	root	_	_
 15	ydı	_	AUX	AUX	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	14	cop	_	_
-16	;	;	PUNCT	,	_	14	punct	_	_
+16	;	;	PUNCT	,	_	31	punct	_	_
 17	uzaydan	uzay	NOUN	NN	Case=Abl|Number=Sing	18	obl	_	_
 18	gelen	gel	ADJ	VJ	Number=Sing|Polarity=Pos	19	acl	_	_
 19	tohumlardan	tohum	NOUN	NN	Case=Abl|Number=Plur	20	obl	_	_
@@ -1637,7 +1637,7 @@
 14	"	"	PUNCT	''	_	13	punct	_	_
 15	patlak	patlak	NOUN	NN	Number=Sing	21	obj	_	_
 16	verdiğini	ver	NOUN	VN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	15	compound	_	SpaceAfter=No
-17	,	,	PUNCT	,	_	21	punct	_	_
+17	,	,	PUNCT	,	_	15	punct	_	_
 18	ancak	ancak	ADV	RB	_	21	cc	_	_
 19	yaralanan	yarala	NOUN	VN	Case=Nom|Number=Sing|Polarity=Pos	20	nsubj	_	_
 20	olmadığını	ol	NOUN	VN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg	21	ccomp	_	_
@@ -1651,9 +1651,9 @@
 2	filmi	film	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	acl	_	_
 3	Oscar	Oscar	PROPN	PROPN	Number=Sing	4	nmod:poss	_	Proper=True
 4	ödüllü	_	ADJ	JJ	Number=Sing	2	amod	_	_
-5	"	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+5	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
 6	Yerçekimi	Yerçekimi	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	2	appos	_	Proper=True|SpaceAfter=No
-7	"	"	PUNCT	''	_	2	punct	_	_
+7	"	"	PUNCT	''	_	6	punct	_	_
 8	olan	ol	AUX	VJ	Number=Sing|Polarity=Pos	2	cop	_	_
 9	Cuaron'un	Cuaron	PROPN	PROPN	Case=Gen|Number=Sing	13	nsubj	_	Proper=True
 10	olay	olay	NOUN	NN	Number=Sing	11	nmod:poss	_	_
@@ -2154,10 +2154,10 @@
 6	özellikle	özellikle	ADV	RB	_	24	advmod	_	_
 7	de	de	ADV	RB	_	6	advmod:emph	_	_
 8	Brezilya	Brezilya	PROPN	PROPN	Number=Sing	24	amod	_	Proper=True|SpaceAfter=No
-9	,	,	PUNCT	,	_	11	punct	_	_
+9	,	,	PUNCT	,	_	10	punct	_	_
 10	Güney	Güney	NOUN	NN	Number=Sing	8	conj	_	Proper=True
 11	Afrika	Afrika	PROPN	PROPN	Number=Sing	10	flat	_	Proper=True|SpaceAfter=No
-12	,	,	PUNCT	,	_	11	punct	_	_
+12	,	,	PUNCT	,	_	13	punct	_	_
 13	Hindistan	Hindistan	PROPN	PROPN	Number=Sing	8	conj	_	Proper=True
 14	ve	ve	CCONJ	CCONJ	_	15	cc	_	_
 15	Çin	Çin	PROPN	PROPN	Number=Sing	8	conj	_	Proper=True
@@ -2496,7 +2496,7 @@
 14	yönelik	yönelik	ADP	IN	_	13	case	_	_
 15	olarak	ol	ADV	CRB	Polarity=Pos	16	advcl	_	_
 16	raporlar	rapo	VERB	VB	Number=Plur	0	root	_	SpaceAfter=No
-17	;	;	PUNCT	,	_	16	punct	_	_
+17	;	;	PUNCT	,	_	32	punct	_	_
 18	ancak	ancak	ADV	RB	_	32	advmod	_	_
 19-20	internetteki	_	_	_	_	_	_	_	_
 19	internette	_	NOUN	NN	Case=Loc|Number=Sing	23	amod	_	_
@@ -3126,7 +3126,7 @@
 8	yorumlar	yorum	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
 9	yağmaya	yağ	NOUN	VN	Aspect=Perf|Case=Dat|Mood=Ind|Tense=Pres|VerbForm=Ger	10	ccomp	_	_
 10	başladı	başla	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-11	-	-	PUNCT	-	_	10	punct	_	_
+11	-	-	PUNCT	-	_	18	punct	_	_
 12	ve	ve	CCONJ	CCONJ	_	18	cc	_	_
 13	bunlar	bu	PRON	PRD	Case=Nom|Number=Plur|Polarity=Pos	18	nsubj	_	_
 14	pek	pek	ADV	RB	_	16	advmod	_	_
@@ -3507,7 +3507,7 @@
 9	Slate'e	Slate	PROPN	PROPN	Case=Dat|Number=Sing	10	obl	_	Proper=True
 10	yaptığı	yap	ADJ	VJ	Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	11	acl	_	_
 11	açıklamada	açıkla	NOUN	NN	Case=Loc|Number=Sing|Polarity=Pos	19	obl	_	_
-12	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+12	"	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
 13	Onu	o	PRON	PRP	Case=Acc|Number=Sing|Polarity=Pos	14	obj	_	_
 14	oynarken	oyna	ADV	CRB	Polarity=Pos	15	advcl	_	_
 15	güçlü	güçlü	ADV	JJ	Number=Sing	16	advmod	_	_
@@ -3650,7 +3650,7 @@
 11	okuma	oku	NOUN	VN	Aspect=Perf|Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Ger	12	nmod:poss	_	_
 12	çağrısını	çağrı	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	obj	_	_
 13	vurgular	vurgu	VERB	VB	Number=Plur	0	root	_	SpaceAfter=No
-14	:	:	PUNCT	:	_	13	punct	_	_
+14	:	:	PUNCT	:	_	15	punct	_	_
 15	rahatsızlık	rahatsızlık	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
 17	büyüme	büyü	NOUN	VN	Aspect=Perf|Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Ger	15	conj	_	_
@@ -3819,7 +3819,7 @@
 5	kendi	kendi	PRON	PRR	Number=Sing|Reflex=Yes	6	amod	_	_
 6	hikayesini	hikaye	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
 7	anlatır	anlat	VERB	VB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	,	_	7	punct	_	_
+8	,	,	PUNCT	,	_	10	punct	_	_
 9	hepsi	hepsi	PRON	PRI	Number=Sing|Polarity=Pos	10	nsubj	_	_
 10	gerçek	gerçek	NOUN	NN	Number=Sing	7	conj	_	_
 11	değildir	değil	AUX	NOMP	Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	10	aux	_	SpaceAfter=No
@@ -3961,7 +3961,7 @@
 8	adam	adam	NOUN	NN	Number=Sing	10	obl	_	_
 9	gibi	gibi	ADP	IN	_	8	case	_	_
 10	karşıladı	karşıla	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	SpaceAfter=No
-11	,	,	PUNCT	,	_	10	punct	_	_
+11	,	,	PUNCT	,	_	13	punct	_	_
 12	sinirden	sinir	NOUN	NN	Case=Abl|Number=Sing	13	obl	_	_
 13	deliye	deli	NOUN	NN	Case=Dat|Number=Sing	4	conj	_	_
 14	döndüm	dön	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	13	compound:lvc	_	SpaceAfter=No
@@ -4372,7 +4372,7 @@
 2	insanların	insan	NOUN	NN	Case=Gen|Number=Plur	3	nmod:poss	_	_
 3	kalplerine	kalp	NOUN	NN	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 4	ulaşır	ulaş	VERB	VB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	,	_	4	punct	_	_
+5	;	;	PUNCT	,	_	15	punct	_	_
 6	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	7	det	_	_
 7	yerde	yer	NOUN	NN	Case=Loc|Number=Sing	8	obl	_	_
 8	buluşup	buluş	ADV	CRB	Polarity=Pos	12	advcl	_	_
@@ -4478,7 +4478,7 @@
 3	insan	insan	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
 4	krediye	kredi	NOUN	NN	Case=Dat|Number=Sing	5	obj	_	_
 5	yöneliyor	yönel	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
-6	...	...	PUNCT	.	_	5	punct	_	_
+6	...	...	PUNCT	.	_	20	punct	_	_
 7	Bu	bu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	8	det	_	_
 8	borçlanma	borçlan	NOUN	VN	Aspect=Perf|Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Ger	11	nsubj	_	_
 9	şimdi	şimdi	ADV	RB	_	11	advmod	_	_
@@ -4846,7 +4846,7 @@
 7	ki	ki	ADP	JJ	_	6	case	_	_
 8	derece	derece	NOUN	NN	Number=Sing	9	nmod:poss	_	_
 9	programlarını	program	NOUN	NN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	obj	_	_
-10	ziyaret	ziyaret	NOUN	NN	Number=Sing	13	xcomp	_	_
+10	ziyaret	ziyaret	NOUN	NN	Number=Sing	13	ccomp	_	_
 11	ediyorum	et	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres	10	compound:lvc	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	10	punct	_	_
 13	dedi	de	PUNCT	.	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
@@ -5594,7 +5594,7 @@
 5	programında	program	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
 6	şunları	şu	PRON	PRD	Case=Acc|Number=Plur|Polarity=Pos	7	obj	_	_
 7	söyledi	söyle	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-8	:	:	PUNCT	:	_	7	punct	_	_
+8	:	:	PUNCT	:	_	18	punct	_	_
 9	"	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
 10	Açıkçası	Açıkça	NOUN	NN	Number=Sing	18	obl	_	_
 11	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	13	det	_	_
@@ -5747,7 +5747,7 @@
 2	Hopley	Hopley	PROPN	PROPN	Case=Nom|Number=Sing	1	appos	_	Proper=True
 3	şunları	şu	PRON	PRI	Case=Acc|Number=Plur|Polarity=Pos	4	obj	_	_
 4	ekledi	ekle	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-5	:	:	PUNCT	:	_	4	punct	_	_
+5	:	:	PUNCT	:	_	12	punct	_	_
 6	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
 7	Siyasi	siyasi	ADJ	JJ	Number=Sing	8	amod	_	_
 8-9	riskteki	_	_	_	_	_	_	_	_
@@ -5869,7 +5869,7 @@
 11	küçülmeye	küçül	NOUN	VN	Aspect=Perf|Case=Dat|Mood=Ind|Tense=Pres|VerbForm=Ger	12	advcl	_	_
 12	gideceklerini	gidecek	NOUN	VN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=2|Polarity=Pos	13	ccomp	_	_
 13	düşünüyorlardı	düşünüyorlar	VERB	VB	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-14	;	;	PUNCT	:	_	13	punct	_	_
+14	;	;	PUNCT	:	_	22	punct	_	_
 15	ama	ama	ADV	RB	_	22	cc	_	_
 16	bunun	bu	PRON	PRD	Case=Gen|Number=Sing|Polarity=Pos	17	nmod:poss	_	_
 17	yerine	yer	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	22	obl	_	_
@@ -5949,7 +5949,7 @@
 6-7	sterlindir	_	_	_	_	_	_	_	SpaceAfter=No
 6	sterlin	sterl	NOUN	NN	Number=Sing	0	root	_	_
 7	dir	i	AUX	AUX	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
-8	,	,	PUNCT	,	_	6	punct	_	_
+8	,	,	PUNCT	,	_	21	punct	_	_
 9	Avro	Avro	NOUN	NN	Number=Sing	11	nmod:poss	_	Proper=True
 10	Energy	Energy	X	FW	_	9	flat	_	Proper=True
 11	müşterileri	müşteri	NOUN	NN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	21	nsubj	_	_
@@ -6328,7 +6328,7 @@
 5	şekilde	şekil	NOUN	NN	Case=Loc|Number=Sing	7	obl	_	_
 6	ileri	ileri	NOUN	NN	Number=Sing	7	obl	_	_
 7	uzanıyor	uza	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	,	_	7	punct	_	_
+8	,	,	PUNCT	,	_	10	punct	_	_
 9	elleri	el	NOUN	NN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	nsubj	_	_
 10	titriyor	titre	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	conj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	7	punct	_	_
@@ -6929,7 +6929,7 @@
 4	oyların	oy	NOUN	NN	Case=Gen|Number=Plur	5	nmod:poss	_	_
 5	toplanmasıyla	toplanma	NOUN	VN	Aspect=Perf|Case=Ins|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Ger|Voice=Cau	6	obj	_	_
 6	ilgili	ilgili	ADJ	JJ	Number=Sing	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	,	_	6	punct	_	_
+7	,	,	PUNCT	,	_	18	punct	_	_
 8	ancak	ancak	ADV	RB	_	18	advmod	_	_
 9	kayıtlı	_	ADJ	JJ	Number=Sing	11	amod	_	_
 10	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	11	det	_	_
@@ -6986,7 +6986,7 @@
 5	önemseyen	önemse	ADJ	VJ	Number=Sing|Polarity=Pos	13	acl	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	gösterişli	gösterişli	ADJ	JJ	Number=Sing|Polarity=Pos	13	amod	_	SpaceAfter=No
-8	,	,	PUNCT	,	_	7	punct	_	_
+8	,	,	PUNCT	,	_	9	punct	_	_
 9	kibirli	kibirli	ADJ	JJ	Number=Sing	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
 11	bencil	bencil	ADJ	JJ	Number=Sing	7	conj	_	_
@@ -7158,7 +7158,7 @@
 2	devlet	devlet	NOUN	NN	Number=Sing	3	nmod:poss	_	_
 3	tahvillerini	tahvil	NOUN	NN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
 4	satıyorlar	sat	VERB	VB	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	:	_	4	punct	_	_
+5	;	;	PUNCT	:	_	14	punct	_	_
 6	en	en	ADV	RB	_	7	advmod	_	_
 7	büyük	büyük	ADJ	JJ	Number=Sing	8	amod	_	_
 8	etkiyi	etki	NOUN	NN	Case=Acc|Number=Sing	14	obj	_	_
@@ -7976,7 +7976,7 @@
 5	bazı	bazı	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	6	det	_	_
 6	insanlar	insan	NOUN	NN	Number=Plur	7	obj	_	_
 7	gördüm	gör	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	,	_	7	punct	_	_
+8	,	,	PUNCT	,	_	12	punct	_	_
 9	ancak	ancak	ADV	RB	_	12	advmod	_	_
 10	çok	çok	ADV	RB	_	11	advmod	_	_
 11	daha	daha	ADV	RB	_	12	advmod	_	_
@@ -8055,7 +8055,7 @@
 3	insanlara	insan	NOUN	NN	Case=Dat|Number=Plur	4	iobj	_	_
 4	faydası	fayda	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 5	olmayacaktır	ol	VERB	VB	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Fut	17	ccomp	_	SpaceAfter=No
-6	,	,	PUNCT	,	_	5	punct	_	_
+6	,	,	PUNCT	,	_	14	punct	_	_
 7	ancak	ancak	ADV	RB	_	14	advmod	_	_
 8	ölülerin	ölü	NOUN	NN	Case=Gen|Number=Plur	9	nmod:poss	_	_
 9	anılarını	anı	NOUN	NN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	13	obj	_	_
@@ -8568,7 +8568,7 @@
 7	günümüzdeki	gün	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=1	8	amod	_	_
 8	Moravya'nın	Moravya	PROPN	PROPN	Case=Gen|Number=Sing	9	nmod:poss	_	Proper=True
 9	güneydoğusunda	güneydoğu	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	obl	_	SpaceAfter=No
-10	,	,	PUNCT	,	_	9	punct	_	_
+10	,	,	PUNCT	,	_	11	punct	_	_
 11	Záhorie'de	Záhorie	PROPN	PROPN	Case=Loc|Number=Sing	9	conj	_	Proper=True|SpaceAfter=No
 12	,	,	PUNCT	,	_	11	punct	_	_
 13	Slovakya'nın	Slovakya	PROPN	PROPN	Case=Gen|Number=Sing	14	nmod:poss	_	Proper=True
@@ -8783,7 +8783,7 @@
 4-5	sistemdir	_	_	_	_	_	_	_	SpaceAfter=No
 4	sistem	_	NOUN	NN	Number=Sing	0	root	_	_
 5	dir	_	AUX	AUX	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
-6	,	,	PUNCT	,	_	4	punct	_	_
+6	,	,	PUNCT	,	_	20	punct	_	_
 7	bu	bu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	8	det	_	_
 8	nedenle	neden	NOUN	NN	Case=Ins|Number=Sing	20	obl	_	_
 9	sistemin	sistem	NOUN	NN	Case=Gen|Number=Sing	11	nmod:poss	_	_
@@ -8853,7 +8853,7 @@
 10	şekillendirilen	şekillendir	ADJ	VJ	Number=Sing|Polarity=Pos	12	acl	_	_
 11	Doğu	doğu	NOUN	NN	Number=Sing	28	nsubj	_	_
 12	Afrika	Afrika	PROPN	PROPN	Case=Nom|Number=Sing	11	flat	_	Proper=True|SpaceAfter=No
-13	,	,	PUNCT	,	_	22	punct	_	_
+13	,	,	PUNCT	,	_	11	punct	_	_
 14-15	Afrika'daki	_	_	_	_	_	_	_	_
 14	Afrika'da	Afrika	PROPN	PROPN	Case=Loc|Number=Sing	19	amod	_	Proper=True
 15	ki	ki	ADP	JJ	_	14	case	_	_
@@ -9127,7 +9127,7 @@
 14-15	Fenikelilerdir	_	_	_	_	_	_	_	SpaceAfter=No
 14	Fenikeliler	Fenikeli	PROPN	PROPN	Number=Plur	12	conj	_	Proper=True
 15	dir	i	AUX	AUX	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	14	cop	_	_
-16	;	;	PUNCT	,	_	14	punct	_	_
+16	;	;	PUNCT	,	_	26	punct	_	_
 17	her	her	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	18	det	_	_
 18	ikisi	iki	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	26	nsubj	_	_
 19	de	de	ADV	RB	_	18	advmod:emph	_	_
@@ -9333,7 +9333,7 @@
 11	edilmesine	edil	NOUN	VN	Aspect=Perf|Case=Dat|Mood=Ind|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Ger|Voice=Pass	10	compound:lvc	_	_
 12	yol	yol	NOUN	NN	Number=Sing	0	root	_	_
 13	açtı	aç	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	12	compound	_	SpaceAfter=No
-14	;	;	PUNCT	,	_	12	punct	_	_
+14	;	;	PUNCT	,	_	30	punct	_	_
 15	Flensburg'a	Flensburg	PROPN	PROPN	Case=Dat|Number=Sing	16	obl	_	Proper=True
 16	giden	git	ADJ	VJ	Number=Sing|Polarity=Pos	17	acl	_	_
 17	demiryolunun	demiryol	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	24	nsubj	_	_
@@ -10495,7 +10495,7 @@
 12	terimi	terim	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	nsubj	_	_
 13	topraklara	toprak	NOUN	NN	Case=Dat|Number=Plur	14	iobj	_	_
 14	uygulanmıştır	uygulanmış	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
-15	;	;	PUNCT	,	_	14	punct	_	_
+15	;	;	PUNCT	,	_	36	punct	_	_
 16	bunun	bu	PRON	PRD	Case=Gen|Number=Sing|Polarity=Pos	17	nmod:poss	_	_
 17	sonucunda	sonuç	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	36	obl	_	_
 18	"	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
@@ -10710,7 +10710,7 @@
 22	tanıtımına	tanıtım	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	23	obl	_	_
 23	zemin	ze	NOUN	NN	Number=Sing	11	conj	_	_
 24	hazırlıyorlardı	hazırla	VERB	VB	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Past	11	conj	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	23	punct	_	_
+25	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = w01047104
 # text = Bu kitap, kimya endüstrisinin ve lobicilerin yanı sıra Amerikan halkının geniş bir kesiminin dikkatine sunuldu.
@@ -12293,7 +12293,7 @@
 10	içeriyor	içer	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	advcl	_	_
 11	olmasına	ol	AUX	VN	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Ger	10	cop	_	_
 12	rağmen	rağmen	ADP	IN	_	10	case	_	SpaceAfter=No
-13	,	,	PUNCT	,	_	11	punct	_	_
+13	,	,	PUNCT	,	_	10	punct	_	_
 14	bağımsız	bağımsız	ADJ	JJ	Number=Sing	15	amod	_	_
 15	kompozisyon	kompozisyon	NOUN	NN	Number=Sing	16	nmod:poss	_	_
 16	eğilimine	eğilim	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	22	obl	_	_
@@ -12595,7 +12595,7 @@
 3	Sefarad	Sefarad	PROPN	PROPN	Number=Sing	4	nmod:poss	_	Proper=True
 4	nüfusunu	nüfus	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
 5	kovdu	kov	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-6	;	;	PUNCT	,	_	5	punct	_	_
+6	;	;	PUNCT	,	_	15	punct	_	_
 7	bu	bu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	9	det	_	_
 8	İspanyol	İspanyol	PROPN	PROPN	Number=Sing	9	amod	_	Proper=True
 9	Yahudilerin	Yahudiler	PROPN	PROPN	Case=Gen|Number=Plur	10	nmod:poss	_	Proper=True
@@ -12979,7 +12979,7 @@
 8	ve	ve	CCONJ	CCONJ	_	9	cc	_	_
 9	tarihten	tarih	NOUN	NN	Case=Abl|Number=Sing	7	conj	_	_
 10	oluşuyordu	oluş	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-11	;	;	PUNCT	,	_	10	punct	_	_
+11	;	;	PUNCT	,	_	24	punct	_	_
 12	çünkü	çünkü	ADV	RB	_	24	advmod	_	_
 13	klasiklerin	klasik	NOUN	NN	Case=Gen|Number=Plur	23	nsubj	_	_
 14	ahlaki	_	ADJ	JJ	Number=Sing	15	amod	_	_
@@ -13620,7 +13620,7 @@
 4	Savaşı	savaş	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	Proper=True
 5	patlak	patlak	NOUN	NN	Number=Sing	0	root	_	_
 6	verdi	ver	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	compound	_	SpaceAfter=No
-7	;	;	PUNCT	:	_	6	punct	_	_
+7	;	;	PUNCT	:	_	10	punct	_	_
 8	Çinliler	Çinli	PROPN	PROPN	Case=Nom|Number=Plur	10	nsubj	_	Proper=True
 9	yine	yine	ADV	RB	_	10	advmod	_	_
 10	yenildi	yenil	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	conj	_	_
@@ -13808,7 +13808,7 @@
 2	sonlarına	son	NOUN	NN	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
 3	doğru	doğru	ADP	IN	Number=Sing	2	case	_	_
 4	bitirildi	bitir	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=CauPass	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	:	_	4	punct	_	_
+5	;	;	PUNCT	:	_	21	punct	_	_
 6	Eagle'la	Eagle	PROPN	PROPN	Case=Ins|Number=Sing	7	obl	_	Proper=True
 7	donatılan	donat	ADJ	VJ	Number=Sing|Polarity=Pos	10	acl	_	_
 8	pek	pek	ADV	RB	_	9	advmod	_	_
@@ -13919,7 +13919,7 @@
 13	ve	ve	CCONJ	CCONJ	_	14	cc	_	_
 14	iyi	iyi	ADJ	JJ	Number=Sing	10	conj	_	_
 15	çalıştı	çalış	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	,	_	10	punct	_	_
+16	.	.	PUNCT	,	_	15	punct	_	_
 
 # sent_id = w01105057
 # text = O kadar başarılıydı ki ordu savaştan sonra uzun yıllar kullanmaya devam etti ve 1980'lerde bazı ülkelerde hala kullanımdaydı.
@@ -13987,7 +13987,7 @@
 3	iklimi	iklim	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
 4	soğutmaya	soğut	NOUN	VN	Aspect=Perf|Case=Dat|Mood=Ind|Tense=Pres|VerbForm=Ger	5	advcl	_	_
 5	yarar	yarar	VERB	VB	Number=Sing	0	root	_	SpaceAfter=No
-6	,	,	PUNCT	,	_	5	punct	_	_
+6	,	,	PUNCT	,	_	10	punct	_	_
 7	aksi	aksi	NOUN	NN	Number=Sing	8	amod	_	_
 8	takdirde	takdir	ADV	IN	_	10	advmod	_	_
 9	çok	çok	ADV	RB	_	10	advmod	_	_
@@ -14353,7 +14353,7 @@
 4	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	5	det	_	_
 5	uzlaşmaya	uzlaş	NOUN	VN	Aspect=Perf|Case=Dat|Mood=Ind|Tense=Pres|VerbForm=Ger	6	advcl	_	_
 6	varmıştı	var	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp	0	root	_	SpaceAfter=No
-7	:	:	PUNCT	:	_	6	punct	_	_
+7	:	:	PUNCT	:	_	10	punct	_	_
 8	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	9	det	_	_
 9	üniversiteye	üniversite	NOUN	NN	Case=Dat|Number=Sing	10	obl	_	_
 10	girecek	gir	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut	6	conj	_	_
@@ -14526,7 +14526,7 @@
 5	şu	şu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	6	det	_	_
 6	açıklamayı	açıkla	NOUN	VN	Case=Acc|Number=Sing|Polarity=Pos	7	obj	_	_
 7	yapmıştır	yap	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-8	:	:	PUNCT	:	_	7	punct	_	_
+8	:	:	PUNCT	:	_	14	punct	_	_
 9	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
 10	Her	her	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	11	det	_	_
 11	kitap	kitap	NOUN	NN	Case=Nom|Number=Sing	14	nsubj	_	_
@@ -14654,7 +14654,7 @@
 8	ilk	ilk	ADJ	JJ	Number=Sing	9	amod	_	_
 9	50'ye	50	NOUN	NN	Case=Dat|Number=Sing	10	obl	_	_
 10	girmişti	gir	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp	6	conj	_	SpaceAfter=No
-11	;	;	PUNCT	:	_	10	punct	_	_
+11	;	;	PUNCT	:	_	21	punct	_	_
 12	ilgili	ilgili	ADJ	JJ	Number=Sing	13	amod	_	_
 13	single	sing	NOUN	NN	Number=Sing	17	acl	_	_
 14	olan	ol	AUX	VJ	Number=Sing|Polarity=Pos	13	cop	_	_
@@ -15049,7 +15049,7 @@
 7	(	(	PUNCT	(	_	8	punct	_	SpaceAfter=No
 8	1992	1992	NUM	CD	Number=Sing	1	appos	_	SpaceAfter=No
 9	)	)	PUNCT	)	_	8	punct	_	SpaceAfter=No
-10	,	,	PUNCT	,	_	11	punct	_	_
+10	,	,	PUNCT	,	_	1	punct	_	_
 11	onu	o	PRON	PRP	Case=Acc|Number=Sing|Polarity=Pos	21	obj	_	_
 12	Stealers	Stealers	PROPN	PROPN	Number=Sing	14	nmod:poss	_	Proper=True
 13	Wheel	Wheel	X	FW	_	12	flat	_	Proper=True
@@ -15106,7 +15106,7 @@
 10	ki	ki	ADP	JJ	_	9	case	_	_
 11	Humblebums	Humblebums	X	FW	_	12	nmod:poss	_	Proper=True
 12	şarkısı	şarkı	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	21	nmod:poss	_	_
-13	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+13	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
 14	Her	her	X	FW	Definite=Def|Number=Sing|Polarity=Pos	12	appos	_	Proper=True
 15	Father	Father	X	FW	_	14	flat	_	Proper=True
 16	Like	lik	X	FW	_	14	flat	_	Proper=True
@@ -15242,7 +15242,7 @@
 10	metinlerde	metin	NOUN	NN	Case=Loc|Number=Plur	7	conj	_	_
 11	temsil	temsil	NOUN	NN	Number=Sing	0	root	_	_
 12	edilmemektedir	edilme	VERB	VB	Aspect=Prog|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Voice=Pass	11	compound:lvc	_	SpaceAfter=No
-13	;	;	PUNCT	:	_	11	punct	_	_
+13	;	;	PUNCT	:	_	29	punct	_	_
 14	bunun	bu	PRON	PRD	Case=Gen|Number=Sing|Polarity=Pos	15	nmod:poss	_	_
 15	yerine	yer	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	29	obl	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	15	punct	_	_
@@ -15456,7 +15456,7 @@
 9	2012	2012	NOUN	NN	Number=Sing	10	nmod:poss	_	_
 10	yapımı	yapı	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	11	amod	_	_
 11	Five	Five	X	FW	_	17	obj	_	Proper=True|SpaceAfter=No
-12	-	-	PUNCT	-	_	11	punct	_	Proper=True|SpaceAfter=No
+12	-	-	PUNCT	-	_	13	punct	_	Proper=True|SpaceAfter=No
 13	Year	Year	X	FW	_	11	flat	_	Proper=True
 14	Engagement	Engagement	X	FW	_	11	flat	_	Proper=True
 15	filminde	film	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	appos	_	_
@@ -15491,7 +15491,7 @@
 22	Looper'i	Looper	PROPN	PROPN	Number=Sing	23	obj	_	Proper=True
 23	çekmeye	çek	NOUN	VN	Aspect=Perf|Case=Dat|Mood=Ind|Tense=Pres|VerbForm=Ger	24	ccomp	_	_
 24	başladı	başla	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-25	;	;	PUNCT	,	_	24	punct	_	_
+25	;	;	PUNCT	,	_	30	punct	_	_
 26	Film	film	NOUN	NN	Case=Nom|Number=Sing	30	nsubj	_	_
 27	Eylül	eylül	NOUN	NN	Number=Sing	28	compound	_	_
 28	2012'de	2012	NOUN	NN	Case=Loc|Number=Sing	30	obl	_	_
@@ -16128,7 +16128,7 @@
 13	şarkısını	şarkı	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	obj	_	_
 14	birlikte	birlikte	ADV	RB	_	15	advmod	_	_
 15	yazdı	yaz	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-16	,	,	PUNCT	,	_	15	punct	_	_
+16	,	,	PUNCT	,	_	35	punct	_	_
 17	daha	daha	ADV	RB	_	18	advmod	_	_
 18	sonra	sonra	ADV	RB	_	35	advmod	_	_
 19	Kesha	Kesha	PROPN	PROPN	Case=Nom|Number=Sing	35	nsubj	_	Proper=True
@@ -16616,7 +16616,7 @@
 11	durumu	durum	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obj	_	_
 12	tasvir	tasvir	NOUN	NN	Number=Sing	0	root	_	_
 13	eder	et	VERB	VB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	12	compound:lvc	_	SpaceAfter=No
-14	:	:	PUNCT	:	_	12	punct	_	_
+14	:	:	PUNCT	:	_	41	punct	_	_
 15	ABD'nin	Abd	PROPN	PROPN	Case=Gen|Number=Sing	17	nmod:poss	_	Proper=True
 16	tüm	tüm	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	17	det	_	_
 17	birliklerini	birlik	NOUN	NN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	26	obj	_	SpaceAfter=No
@@ -17220,7 +17220,7 @@
 13	emin	emin	ADJ	JJ	Number=Sing	14	amod	_	_
 14	şekilde	şekil	NOUN	NN	Case=Loc|Number=Sing	15	obl	_	_
 15	konuşuyor	konuş	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
-16	:	:	PUNCT	:	_	15	punct	_	_
+16	:	:	PUNCT	:	_	33	punct	_	_
 17	"	"	PUNCT	``	_	33	punct	_	SpaceAfter=No
 18	Offshore	Offshore	NOUN	NN	Number=Sing	20	nmod:poss	_	_
 19	rüzgar	rüzgar	NOUN	NN	Number=Sing	20	nmod:poss	_	_
@@ -17300,7 +17300,7 @@
 4	işaretler	işaret	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
 5	tamamen	tamamen	ADV	RB	_	6	advmod	_	_
 6	kaybolmayacak	kaybol	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut	0	root	_	SpaceAfter=No
-7	:	:	PUNCT	:	_	6	punct	_	_
+7	:	:	PUNCT	:	_	36	punct	_	_
 8	Haber	haber	NOUN	NN	Number=Sing	9	nmod:poss	_	_
 9	ajansı	ajans	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
 10	dpa'dan	dpa'	PROPN	PROPN	Case=Abl|Number=Sing	9	appos	_	Proper=True
@@ -18644,7 +18644,7 @@
 4	keresinde	kere	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
 5	şöyle	şöyle	ADV	RB	_	6	advmod	_	_
 6	demiştir	de	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-7	:	:	PUNCT	:	_	6	punct	_	_
+7	:	:	PUNCT	:	_	19	punct	_	_
 8	"	"	PUNCT	``	_	19	punct	_	SpaceAfter=No
 9	Gölgesi	Gölge	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	nsubj	_	_
 10	insan	insan	NOUN	NN	Number=Sing	12	nmod	_	ToDo=nmod
@@ -19737,7 +19737,7 @@
 4	istenmeyen	istenme	ADJ	VJ	Number=Sing|Polarity=Neg	5	acl	_	_
 5	görüşleri	görüş	NOUN	VN	Case=Acc|Number=Plur	6	obj	_	_
 6	susturdu	sus	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
-7	;	;	PUNCT	,	_	6	punct	_	_
+7	;	;	PUNCT	,	_	14	punct	_	_
 8	kamu	kamu	NOUN	NN	Number=Sing	9	nmod:poss	_	_
 9	hayatına	hayat	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obj	_	_
 10	katılım	katılım	NOUN	NN	Case=Nom|Number=Sing	14	nsubj	_	_
@@ -20096,7 +20096,7 @@
 17	yöneten	yönet	ADJ	VJ	Number=Sing|Polarity=Pos	13	conj	_	_
 18	topluluklara	topluluk	NOUN	NN	Case=Dat|Number=Plur	19	iobj	_	_
 19	bölünmüştür	bölünmüşi	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
-20	:	:	PUNCT	:	_	19	punct	_	_
+20	:	:	PUNCT	:	_	38	punct	_	_
 21	her	her	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	22	det	_	_
 22	ada	ada	NOUN	NN	Number=Sing	29	nmod:poss	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	24	punct	_	_
@@ -20130,7 +20130,7 @@
 7	ortaya	orta	NOUN	NN	Case=Dat|Number=Sing	8	obl	_	_
 8	çıkmaya	çık	NOUN	VN	Aspect=Perf|Case=Dat|Mood=Ind|Tense=Pres|VerbForm=Ger	9	ccomp	_	_
 9	başlamıştır	başla	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-10	:	:	PUNCT	:	_	9	punct	_	_
+10	:	:	PUNCT	:	_	19	punct	_	_
 11	siyasi	siyasi	ADJ	JJ	Number=Sing	12	amod	_	_
 12	sistemleri	sistem	NOUN	NN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	13	nsubj	_	_
 13	olan	ol	ADJ	VJ	Number=Sing|Polarity=Pos	19	acl	_	_
@@ -20221,9 +20221,9 @@
 4	hafifleten	hafiflet	ADJ	VJ	Number=Sing|Polarity=Pos	6	acl	_	_
 5	III.	_	NUM	CD	Number=Sing|NumType=Ord	6	amod	_	Proper=True
 6	Pluviose	Pluviose	PROPN	PROPN	Case=Nom|Number=Sing	19	nsubj	_	Proper=True
-7	(	(	PUNCT	(	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	(	_	6	punct	_	SpaceAfter=No
 8	Ocak	ocak	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
-9	-	-	PUNCT	-	_	8	punct	_	SpaceAfter=No
+9	-	-	PUNCT	-	_	10	punct	_	SpaceAfter=No
 10	Şubat	şubat	NOUN	NN	Number=Sing	8	conj	_	_
 11	1794)	_	PUNCT	)	Number=Sing	10	punct	_	_
 12	'da	'	X	GW	Case=Loc|Number=Sing	8	appos	_	SpaceAfter=No
@@ -20304,7 +20304,7 @@
 1	Dönüşlerinde	Dönüşler	NOUN	VN	Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=3	14	advcl	_	_
 2	Güney	Güney	NOUN	NN	Number=Sing	3	compound	_	Proper=True
 3	Amerika'da	Amerika	PROPN	PROPN	Case=Loc|Number=Sing	12	obl	_	Proper=True|SpaceAfter=No
-4	,	,	PUNCT	,	_	3	punct	_	_
+4	,	,	PUNCT	,	_	10	punct	_	_
 5	Belçika'nın	Belçika	PROPN	PROPN	Case=Gen|Number=Sing	9	nmod:poss	_	Proper=True
 6	savaş	savaş	NOUN	NN	Number=Sing	7	nmod:poss	_	_
 7	sonrası	sonra	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
@@ -20436,7 +20436,7 @@
 8	üzerinde	üzer	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
 9	yer	yer	NOUN	NN	Number=Sing	0	root	_	_
 10	almaktadır	al	VERB	VB	Aspect=Prog|Mood=Gen|Number=Sing|Person=3|Tense=Pres	9	compound	_	SpaceAfter=No
-11	;	;	PUNCT	,	_	10	punct	_	_
+11	;	;	PUNCT	,	_	21	punct	_	_
 12	Fay	Fay	NOUN	NN	Number=Sing	13	nmod:poss	_	_
 13	Hattı	Hatt	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	21	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	_	_
@@ -20505,7 +20505,7 @@
 2	parkur	parkur	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
 3	artık	artık	ADV	RB	_	4	advmod	_	_
 4	kullanılmıyordu	kullanılm	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
-5	;	;	PUNCT	,	_	4	punct	_	_
+5	;	;	PUNCT	,	_	22	punct	_	_
 6	1990'da	1990'	NOUN	NN	Case=Loc|Number=Sing	22	advcl	_	_
 7	ise	i	AUX	VB	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos	6	cop	_	_
 8	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	9	det	_	_
@@ -20722,7 +20722,7 @@
 14	subaya	suba	NOUN	NN	Case=Dat|Number=Sing	15	obj	_	_
 15	yoğunlaşmaya	yoğunlaş	NOUN	VN	Aspect=Perf|Case=Dat|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Ger	16	ccomp	_	_
 16	başladı	başla	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-17	:	:	PUNCT	.	_	16	punct	_	_
+17	:	:	PUNCT	.	_	18	punct	_	_
 18	Napolyon	Napolyon	PROPN	PROPN	Number=Sing	16	conj	_	Proper=True
 19	Bonapart	Bonapart	PROPN	PROPN	Number=Sing	18	flat	_	Proper=True|SpaceAfter=No
 20	.	.	PUNCT	.	_	18	punct	_	_
@@ -20803,7 +20803,7 @@
 23	Lord	Lord	NOUN	NN	Number=Sing	34	nsubj	_	_
 24	Grenville	Grenvil	PROPN	PROPN	Number=Sing	23	appos	_	Proper=True
 25	de	de	ADV	RB	_	24	advmod:emph	_	SpaceAfter=No
-26	,	,	PUNCT	,	_	28	punct	_	_
+26	,	,	PUNCT	,	_	27	punct	_	_
 27	Çar	Çar	NOUN	NN	Number=Sing	24	conj	_	_
 28	Alexander	Alexander	PROPN	PROPN	Case=Nom|Number=Sing	27	appos	_	Proper=True
 29	da	da	ADV	RB	_	28	advmod:emph	_	_
@@ -20858,7 +20858,7 @@
 14	savaşın	savaş	NOUN	NN	Case=Gen|Number=Sing	15	nsubj	_	_
 15	geldiğini	gel	NOUN	VN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	16	ccomp	_	_
 16	söylemiştir	söyle	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
-17	;	;	PUNCT	,	_	16	punct	_	_
+17	;	;	PUNCT	,	_	30	punct	_	_
 18	bu	bu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	19	det	_	_
 19	nedenle	neden	NOUN	NN	Case=Ins|Number=Sing	30	obl	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	19	punct	_	_
@@ -20934,7 +20934,7 @@
 14	üzerinde	üzer	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	obl	_	_
 15	işbirliği	işbirliği	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	16	obj	_	_
 16	yapar	yap	VERB	VB	Aspect=Hab|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
-17	;	;	PUNCT	,	_	16	punct	_	_
+17	;	;	PUNCT	,	_	22	punct	_	_
 18	bazıları	bazı	PRON	PRI	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	22	nsubj	_	_
 19	her	her	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	20	det	_	_
 20	ikisi	iki	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	21	nmod:poss	_	_
@@ -21419,7 +21419,7 @@
 14	koymaya	koy	NOUN	VN	Aspect=Perf|Case=Dat|Mood=Ind|Tense=Pres|VerbForm=Ger	16	iobj	_	_
 15	karar	karar	NOUN	NN	Number=Sing	16	obj	_	_
 16	vermiştir	ver	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past	8	conj	_	SpaceAfter=No
-17	:	:	PUNCT	:	_	16	punct	_	_
+17	:	:	PUNCT	:	_	23	punct	_	_
 18	tüm	tüm	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	20	det	_	_
 19	Fransa	Fransa	PROPN	PROPN	Number=Sing	20	nmod:poss	_	Proper=True
 20	Krallığına	Krallık	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	21	obl	_	Proper=True

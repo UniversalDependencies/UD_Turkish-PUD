@@ -74,11 +74,11 @@
     <feat name="Person[psor]" value="3" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PRON,PROPN,VERB">2475</feat><!-- arasında, tarafından, olduğunu, yılında, boyunca, konusunda, başkanı, üzerinde, başına, olduğu -->
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,DET,NOUN,PRON,VERB">197</feat><!-- değil, yok, olmayan, değildir, inanılmaz, olmadan, olmadığını, hiçbir, olmaz, bilmiyorum -->
     <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,VERB,X">1906</feat><!-- bir, bu, olarak, olan, her, olduğunu, diğer, eden, o, ise -->
+    <feat name="Polite" value="Form" upos="NOUN,VERB">11</feat><!-- almakta, büyümekte, dayanmakta, dayanmaktadır, etmekte, gerilemekte, hatırlamakta, kullanılmakta, odaklanmakta, yaşanmaktaydı -->
     <feat name="PronType" value="Ind" upos="PRON">2</feat><!-- bazılarını, birbirlerini -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON,PROPN">34</feat><!-- ne, nasıl, kim, hangi, hangisinin, nerede, Kim'in, kaç, neler, nereye -->
     <feat name="PronType" value="Rcp" upos="PRON">4</feat><!-- birbirine, birbirinden, birbiriyle -->
     <feat name="Reflex" value="Yes" upos="PRON">38</feat><!-- kendi, kendisini, kendisi, kendinden, kendini, kendisinin, kendisine, kendisiyle -->
-    <feat name="Register" value="Form" upos="NOUN,VERB">11</feat><!-- almakta, büyümekte, dayanmakta, dayanmaktadır, etmekte, gerilemekte, hatırlamakta, kullanılmakta, odaklanmakta, yaşanmaktaydı -->
     <feat name="Tense" value="Aor" upos="ADV,VERB">9</feat><!-- ederken, gelir, akarken, farklılaşır, görünürken, umarım, çekerken -->
     <feat name="Tense" value="Fut" upos="ADJ,ADV,AUX,NOUN,VERB">160</feat><!-- olmak, etmek, yapmak, olacak, izlemek, görmek, olacaktır, oluşturmak, alacak, almak -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,NOUN,PUNCT,VERB">753</feat><!-- dedi, oldu, etti, başladı, söyledi, ydı, çıktı, edildi, ydi, verdi -->

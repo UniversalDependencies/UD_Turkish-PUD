@@ -1857,7 +1857,7 @@
 8	akciğerinde	akciğer	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	amod	_	_
 9	ki	ki	ADP	JJ	_	8	case	_	_
 10	tümörün	tümör	NOUN	NN	Case=Gen|Number=Sing	11	nsubj	_	_
-11	büyümekte	büyü	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Register=Form|Tense=Pres	14	csubj	_	_
+11	büyümekte	büyü	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres	14	csubj	_	_
 12	olduğu	ol	AUX	VN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	11	aux	_	_
 13	ortaya	orta	NOUN	NN	Case=Dat|Number=Sing	14	obl	_	_
 14	çıktı	çık	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -2473,7 +2473,7 @@
 11	kişiyi	kişi	NOUN	NN	Case=Acc|Number=Sing	12	obj	_	_
 12	istihdam	istihdam	NOUN	NN	Number=Sing	6	conj	_	_
 13-14	etmektedir	_	_	_	_	_	_	_	SpaceAfter=No
-13	etmekte	_	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Register=Form|Tense=Pres	12	compound:lvc	_	_
+13	etmekte	_	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres	12	compound:lvc	_	_
 14	dir	_	AUX	AUX	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	12	cop	_	_
 15	.	.	PUNCT	.	_	12	punct	_	_
 
@@ -2752,7 +2752,7 @@
 12	evlerin	ev	NOUN	NN	Case=Gen|Number=Plur	13	nmod:poss	_	_
 13	yüzdesiyle	yüzde	NOUN	NN	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
 14-15	örtüşmektedir	_	_	_	_	_	_	_	_
-14	örtüşmekte	_	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Register=Form|Tense=Pres	0	root	_	_
+14	örtüşmekte	_	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres	0	root	_	_
 15	dir	_	AUX	AUX	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	14	cop	_	_
 16	ve	ve	CCONJ	CCONJ	_	29	cc	_	_
 17	bu	bu	PRON	PRD	Definite=Def|Number=Sing|Polarity=Pos	29	nsubj	_	_
@@ -4299,7 +4299,7 @@
 1	Ben	ben	PRON	PRP	Case=Nom|Number=Sing|Person=1|Polarity=Pos	5	nsubj	_	_
 2	de	de	ADV	RB	_	1	advmod:emph	_	_
 3	parolaları	parola	NOUN	NN	Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
-4	hatırlamakta	hatırlamak	NOUN	VN	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Register=Form|Tense=Pres	5	obl	_	_
+4	hatırlamakta	hatırlamak	NOUN	VN	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres	5	obl	_	_
 5	güçlük	_	NOUN	NN	Number=Sing	0	root	_	_
 6	çekiyorum	çek	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	compound	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	_	_
@@ -4411,7 +4411,7 @@
 21	mükafatları	mükafat	NOUN	NN	Number=Plur|Number[psor]=Plur|Person[psor]=3	22	nmod:poss	_	_
 22	arasında	ara	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	23	obl	_	_
 23	yer	yer	NOUN	NN	Number=Sing	0	root	_	_
-24	almakta	al	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Register=Form|Tense=Pres	23	compound	_	SpaceAfter=No
+24	almakta	al	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres	23	compound	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	23	punct	_	_
 
 # newdoc id = n01080
@@ -5831,7 +5831,7 @@
 16	yöneticisi	yönetici	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	8	conj	_	_
 17	Herbert	Herbert	PROPN	PROPN	Number=Sing	16	appos	_	Proper=True
 18	Diess'e	Diess	PROPN	PROPN	Case=Dat|Number=Sing	17	flat	_	Proper=True
-19	odaklanmakta	odaklan	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Register=Form|Tense=Pres	5	conj	_	SpaceAfter=No
+19	odaklanmakta	odaklan	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres	5	conj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = n01107010
@@ -9689,7 +9689,7 @@
 6	fazla	fazla	ADJ	JJ	Number=Sing	8	amod	_	_
 7	hidroelektrik	hidroelektrik	NOUN	NN	Number=Sing	8	compound	_	_
 8	santralde	santralde	NOUN	NN	Case=Loc|Number=Sing	9	obl	_	_
-9	kullanılmakta	kullanıl	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Register=Form|Tense=Pres|Voice=Pass	0	root	_	_
+9	kullanılmakta	kullanıl	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres|Voice=Pass	0	root	_	_
 10	ve	ve	CCONJ	CCONJ	_	14	cc	_	_
 11	2900	_	NUM	CD	Number=Sing	12	nummod	_	_
 12	kilowatt	kilowatt	NOUN	NN	Number=Sing	13	clf	_	_
@@ -10474,7 +10474,7 @@
 19	gruplarından	grup	NOUN	NN	Case=Abl|Number=Plur|Number[psor]=Sing|Person[psor]=3	21	obl	_	_
 20	Cariblere	Carib	PROPN	PROPN	Case=Dat|Number=Plur	19	appos	_	Proper=True
 21-22	dayanmaktadır	_	_	_	_	_	_	_	SpaceAfter=No
-21	dayanmakta	_	VERB	VB	Aspect=Prog|Mood=Gen|Number=Sing|Person=3|Register=Form|Tense=Pres|Voice=Pass	0	root	_	_
+21	dayanmakta	_	VERB	VB	Aspect=Prog|Mood=Gen|Number=Sing|Person=3|Polite=Form|Tense=Pres|Voice=Pass	0	root	_	_
 22	dır	_	AUX	AUX	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	21	cop	_	_
 23	.	.	PUNCT	.	_	21	punct	_	_
 
@@ -12122,7 +12122,7 @@
 18	olan	ol	ADJ	VJ	Number=Sing|Polarity=Pos	20	acl	_	_
 19	tesadüfi	tesadüf	ADJ	JJ	_	20	amod	_	_
 20	durumlara	durum	NOUN	NN	Case=Dat|Number=Plur	21	obj	_	_
-21	dayanmaktadır	dayan	VERB	VB	Aspect=Prog|Mood=Gen|Number=Sing|Person=3|Register=Form|Tense=Pres	5	conj	_	_
+21	dayanmaktadır	dayan	VERB	VB	Aspect=Prog|Mood=Gen|Number=Sing|Person=3|Polite=Form|Tense=Pres	5	conj	_	_
 22	ve	ve	CCONJ	CCONJ	_	25	cc	_	_
 23	destekleyici	destekleyici	ADJ	VJ	Number=Sing|Polarity=Pos	24	acl	_	_
 24	kanıtlar	kanıt	NOUN	NN	Case=Nom|Number=Plur	25	nsubj	_	_
@@ -19185,7 +19185,7 @@
 4	bu	bu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	5	det	_	_
 5	yana	yan	NOUN	NN	Mood=Opt|Number=Sing|Person=3|Tense=Pres	7	obl	_	_
 6	hızla	hız	NOUN	NN	Case=Ins|Number=Sing	7	obl	_	_
-7	gerilemekte	gerile	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Register=Form|Tense=Pres	0	root	_	SpaceAfter=No
+7	gerilemekte	gerile	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polite=Form|Tense=Pres	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = w02006081
@@ -20771,7 +20771,7 @@
 17	zamanda	zaman	NOUN	NN	Case=Loc|Number=Sing	20	obl	_	_
 18	yeni	yeni	ADJ	JJ	Number=Sing	19	amod	_	_
 19	gelişmeler	geliş	NOUN	VN	Case=Nom|Number=Plur|Polarity=Pos	20	nsubj	_	_
-20	yaşanmaktaydı	yaşanmaktay	VERB	VB	Aspect=Prog|Mood=Gen|Number=Sing|Person=3|Register=Form|Tense=Past	11	conj	_	SpaceAfter=No
+20	yaşanmaktaydı	yaşanmaktay	VERB	VB	Aspect=Prog|Mood=Gen|Number=Sing|Person=3|Polite=Form|Tense=Past	11	conj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = w04007049

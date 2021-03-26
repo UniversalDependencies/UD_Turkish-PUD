@@ -38,6 +38,7 @@ employ ten-fold cross-validation.
 * 2021-05-15 v2.8
   * Removed relation subtype det:predet, it is not relevant for Turkish.
   * VerbForm=Ger changed to VerbForm=Vnoun, which is used in other Turkish treebanks.
+  * Register=Form changed to Polite=Form, following the UD guidelines.
 * 2020-02-28
   * Fixed malformed dependency relations including appos, flat, and conj.
   * Fixed issues with regards to items değil and mi. They are encoded with the dependency aux.

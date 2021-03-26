@@ -1316,7 +1316,7 @@
 12	ve	ve	CCONJ	CCONJ	_	13	cc	_	_
 13	yetişme	yetiş	NOUN	VN	Aspect=Perf|Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Ger	11	conj	_	_
 14	yetenekleri	yetenek	NOUN	NN	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	18	nsubj	_	_
-15	herhangi	herhangi	DET	PDT	Definite=Ind|Number=Sing|Polarity=Pos	17	det:predet	_	_
+15	herhangi	herhangi	DET	PDT	Definite=Ind|Number=Sing|Polarity=Pos	17	det	_	_
 16	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	17	det	_	_
 17	şekilde	şekil	NOUN	NN	Case=Loc|Number=Sing	18	obl	_	_
 18	etkilenmeden	etkile	VERB	VB	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Conv|Voice=Pass	26	advcl	_	_
@@ -1743,7 +1743,7 @@
 1	Bununla	bu	PRON	PRI	Case=Ins|Number=Sing|Polarity=Pos	18	obl	_	_
 2	birlikte	birlikte	ADP	IN	_	1	case	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	1	punct	_	_
-4	herhangi	herhangi	DET	PDT	Definite=Ind|Number=Sing|Polarity=Pos	7	det:predet	_	_
+4	herhangi	herhangi	DET	PDT	Definite=Ind|Number=Sing|Polarity=Pos	7	det	_	_
 5	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	7	det	_	_
 6	yeni	yeni	ADJ	JJ	Number=Sing	7	amod	_	_
 7	mevzuata	mevzuata	NOUN	NN	Case=Dat|Number=Sing	8	obj	_	ToDo=nmod
@@ -15645,7 +15645,7 @@
 # text_en = Another theme of the Skylark novels involves precursors of modern information technology.
 1	Skylark	Skylark	PROPN	PROPN	Number=Sing	2	nmod:poss	_	Proper=True
 2	romanlarının	roman	NOUN	NN	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	nmod:poss	_	_
-3	bir	bir	DET	PDT	Definite=Ind|Number=Sing|Polarity=Pos	5	det:predet	_	_
+3	bir	bir	DET	PDT	Definite=Ind|Number=Sing|Polarity=Pos	5	det	_	_
 4	diğer	diğer	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	5	det	_	_
 5	teması	temas	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	csubj	_	_
 6	ise	i	AUX	VB	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos	5	cop	_	SpaceAfter=No
@@ -17693,7 +17693,7 @@
 14	Julia	Julia	PROPN	PROPN	Number=Sing	22	nsubj	_	Proper=True
 15	Gillard	Gillard	PROPN	PROPN	Case=Nom|Number=Sing	14	flat	_	Proper=True
 16	"	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
-17	Herhangi	herhangi	DET	PDT	Definite=Ind|Number=Sing|Polarity=Pos	19	det:predet	_	_
+17	Herhangi	herhangi	DET	PDT	Definite=Ind|Number=Sing|Polarity=Pos	19	det	_	_
 18	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	19	det	_	_
 19	danışmanlık	danışmanlık	NOUN	NN	Case=Nom|Number=Sing	20	nsubj	_	_
 20	sağlanmamıştı	sağlanma	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pqp|Voice=Pass	22	ccomp	_	SpaceAfter=No
@@ -18523,7 +18523,7 @@
 1	Dahası	dahası	ADV	RB	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	Hükumet	Hükumet	NOUN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
-4	başka	başka	DET	JJ	Number=Sing	6	det:predet	_	_
+4	başka	başka	DET	JJ	Number=Sing	6	det	_	_
 5	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	6	det	_	_
 6	kriz	kriz	NOUN	NN	Number=Sing	9	obj	_	_
 7	ile	ile	ADP	IN	_	6	case	_	_
@@ -19488,7 +19488,7 @@
 2	Devrimi	Devrim	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nsubj	_	Proper=True|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	İngiltere'de	İngiltere	PROPN	PROPN	Case=Loc|Number=Sing	10	obl	_	Proper=True
-5	diğer	diğer	DET	PDT	Definite=Def|Number=Sing|Polarity=Pos	7	det:predet	_	_
+5	diğer	diğer	DET	PDT	Definite=Def|Number=Sing|Polarity=Pos	7	det	_	_
 6	tüm	tüm	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	7	det	_	_
 7	ülkelerden	ülke	NOUN	NN	Case=Abl|Number=Plur	9	obl	_	_
 8	daha	daha	ADV	RB	_	9	advmod	_	_
@@ -20543,7 +20543,7 @@
 11	kaldırmış	kal	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 12	ve	ve	CCONJ	CCONJ	_	18	cc	_	_
 13	bunu	bu	PRON	PRI	Case=Acc|Number=Sing|Polarity=Pos	18	obj	_	_
-14	diğer	diğer	DET	PDT	Definite=Def|Number=Sing|Polarity=Pos	16	det:predet	_	_
+14	diğer	diğer	DET	PDT	Definite=Def|Number=Sing|Polarity=Pos	16	det	_	_
 15	tüm	tüm	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	16	det	_	_
 16	suçlarda	suç	NOUN	NN	Case=Loc|Number=Plur	18	obl	_	_
 17	da	da	ADV	RB	_	16	advmod:emph	_	_
@@ -20807,7 +20807,7 @@
 27	Çar	Çar	NOUN	NN	Number=Sing	24	conj	_	_
 28	Alexander	Alexander	PROPN	PROPN	Case=Nom|Number=Sing	27	appos	_	Proper=True
 29	da	da	ADV	RB	_	28	advmod:emph	_	_
-30	herhangi	herhangi	DET	PDT	Definite=Ind|Number=Sing|Polarity=Pos	32	det:predet	_	_
+30	herhangi	herhangi	DET	PDT	Definite=Ind|Number=Sing|Polarity=Pos	32	det	_	_
 31	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	32	det	_	_
 32	anlaşma	anlaşma	NOUN	VN	Case=Nom|Number=Sing	33	nsubj	_	_
 33	yapılmasını	yapıl	NOUN	VN	Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Ger|Voice=Pass	34	ccomp	_	_

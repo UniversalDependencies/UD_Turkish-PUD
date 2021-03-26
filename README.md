@@ -35,6 +35,8 @@ employ ten-fold cross-validation.
 
 
 # Changelog
+* 2021-05-15 v2.8
+  * Removed relation subtype det:predet, it is not relevant for Turkish.
 * 2020-02-28
   * Fixed malformed dependency relations including appos, flat, and conj.
   * Fixed issues with regards to items değil and mi. They are encoded with the dependency aux.

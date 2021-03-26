@@ -92,7 +92,7 @@
     <feat name="Voice" value="Pass" upos="ADJ,ADV,NOUN,VERB">247</feat><!-- edildi, edilmiştir, inanılmaz, edilmesi, edilmiş, yapıldı, görülür, alınmasının, bölünmüştür, edilemez -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="40">
+  <deps unique="39">
     <dep name="acl">515</dep>
     <dep name="advcl">450</dep>
     <dep name="advmod">586</dep>
@@ -113,8 +113,7 @@
     <dep name="cop">456</dep>
     <dep name="csubj">93</dep>
     <dep name="dep">3</dep>
-    <dep name="det">679</dep>
-    <dep name="det:predet">8</dep>
+    <dep name="det">687</dep>
     <dep name="discourse">5</dep>
     <dep name="dislocated">5</dep>
     <dep name="fixed">17</dep>

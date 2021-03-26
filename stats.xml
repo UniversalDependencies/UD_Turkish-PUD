@@ -85,10 +85,10 @@
     <feat name="Tense" value="Pqp" upos="AUX,VERB">36</feat><!-- olmuştu, demişti, etmişti, girmişti, kalmıştı, kullanılmıştı, unutulmuştu, vermişti, açmıştı, başlamıştı -->
     <feat name="Tense" value="Pres" upos="ADJ,ADP,ADV,AUX,NOUN,PROPN,VERB">974</feat><!-- dir, dır, değil, olsa, ediyor, tir, büyüme, değildir, inanılmaz, olmasına -->
     <feat name="VerbForm" value="Conv" upos="ADV,AUX,NOUN,VERB">24</feat><!-- olmadan, yken, ederken, ken, akarken, bulunmadan, durmadan, düşünmeden, etkilenmeden, etmeden -->
-    <feat name="VerbForm" value="Ger" upos="ADJ,AUX,NOUN,VERB">465</feat><!-- büyüme, olmasına, savunma, edilmesi, soruşturma, çalışma, çıkmaya, etmeye, alma, etmesi -->
-    <feat name="VerbForm" value="Part" upos="ADJ,NOUN,VERB">14</feat><!-- gerçekleşen, gerçekleştirilen, b​a​y​a​ğ​ı​l​a​ş​t​ı​r​d​ı​k​l​a​r​ı​n​ı, edilen, e​v​c​i​l​l​e​ş​t​i​r​i​l​e​n​l​e​ş​t​i​r​i​l​e​n, gerçekleştiren, gerçekleştiği, gerçekleştiğinde, sertleşen, sorgulayacakları -->
+    <feat name="VerbForm" value="Part" upos="ADJ,NOUN,VERB">14</feat><!-- gerçekleşen, gerçekleştirilen, bayağılaştırdıklarını, edilen, evcilleştirilenleştirilen, gerçekleştiren, gerçekleştiği, gerçekleştiğinde, sertleşen, sorgulayacakları -->
+    <feat name="VerbForm" value="Vnoun" upos="ADJ,AUX,NOUN,VERB">465</feat><!-- büyüme, olmasına, savunma, edilmesi, soruşturma, çalışma, çıkmaya, etmeye, alma, etmesi -->
     <feat name="Voice" value="Cau" upos="ADJ,AUX,NOUN,VERB">86</feat><!-- geçirdi, anlatır, belirtti, çıkardı, başlattı, değiştirdi, geliştirdi, adlandırdı, adlandırmışlardır, anlatıyor -->
-    <feat name="Voice" value="CauPass" upos="ADJ,NOUN,VERB">29</feat><!-- gerçekleştirilen, adlandırılır, başlatıldı, bildirildi, bitirildi, d​e​ğ​e​r​l​e​n​d​i​r​i​l​m​e​k​t​e​d​i​r, değiştirildi, durdurulamazdı, durduruldu, etkinleştirilecek -->
+    <feat name="Voice" value="CauPass" upos="ADJ,NOUN,VERB">29</feat><!-- gerçekleştirilen, adlandırılır, başlatıldı, bildirildi, bitirildi, değerlendirilmektedir, değiştirildi, durdurulamazdı, durduruldu, etkinleştirilecek -->
     <feat name="Voice" value="Pass" upos="ADJ,ADV,NOUN,VERB">247</feat><!-- edildi, edilmiştir, inanılmaz, edilmesi, edilmiş, yapıldı, görülür, alınmasının, bölünmüştür, edilemez -->
   </feats>
   <!-- Statistics of universal dependency relations. -->

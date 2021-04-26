@@ -14331,7 +14331,7 @@
 1	Resmi	resmi	ADJ	JJ	Number=Sing	2	amod	_	_
 2	biyografisi	biyografi	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
-4	Kim'in	Kim	PROPN	PROPN	Case=Gen|Number=Sing|PronType=Int	7	nsubj	_	Proper=True
+4	Kim'in	Kim	PROPN	PROPN	Case=Gen|Number=Sing	7	nsubj	_	Proper=True
 5	altı	altı	NUM	CD	Number=Sing	6	nummod	_	_
 6	opera	opera	NOUN	NN	Number=Sing	7	obj	_	_
 7	bestelediğini	bestele	NOUN	VN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	13	ccomp	_	_

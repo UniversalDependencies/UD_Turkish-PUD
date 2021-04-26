@@ -5072,7 +5072,7 @@
 9	da	da	ADV	RB	_	8	advmod:emph	_	_
 10	gelişmiş	geliş	ADJ	VJ	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	11	acl	_	_
 11	ülkelerin	ülke	NOUN	NN	Case=Gen|Number=Plur	19	nsubj	_	_
-12	birbirlerini	birbiri	PRON	PRI	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Ind	19	obj	_	_
+12	birbirlerini	birbiri	PRON	PRI	Case=Acc|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|PronType=Rcp	19	obj	_	_
 13	kendi	kendi	PRON	PRR	Number=Sing|Reflex=Yes	14	nmod:poss	_	_
 14	planları	plan	NOUN	NN	Number=Plur|Number[psor]=Sing|Person[psor]=3	17	nmod:poss	_	_
 15	ve	ve	CCONJ	CCONJ	_	16	cc	_	_

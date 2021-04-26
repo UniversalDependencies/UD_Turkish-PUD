@@ -33,9 +33,8 @@
     <tag name="X">105</tag><!-- the, _, of, North, Association, Mps, My, News, Really, Street -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="56">
-    <feat name="Aspect" value="Hab" upos="ADJ,AUX,NOUN,PROPN,VERB">169</feat><!-- inanılmaz, olabilir, olursa, yapar, anlatır, başlar, bulunur, eder, görülür, içerir -->
-    <feat name="Aspect" value="Imp" upos="ADV,VERB">4</feat><!-- akarken, ederken, farklılaşır, çekerken -->
+  <feats unique="54">
+    <feat name="Aspect" value="Hab" upos="ADJ,ADV,AUX,NOUN,PROPN,VERB">177</feat><!-- inanılmaz, olabilir, olursa, yapar, anlatır, başlar, bulunur, eder, görülür, içerir -->
     <feat name="Aspect" value="Perf" upos="ADJ,ADP,ADV,AUX,NOUN,PUNCT,VERB">1473</feat><!-- dır, dir, dedi, oldu, etti, başladı, söyledi, ydı, çıktı, edildi -->
     <feat name="Aspect" value="Prog" upos="AUX,NOUN,VERB">197</feat><!-- ediyor, söylüyor, geliyor, gerekiyor, görünüyor, gösteriyor, alıyor, bulunmaktadır, diyor, içeriyor -->
     <feat name="Aspect" value="Prosp" upos="VERB">4</feat><!-- okuyacaktı, olacaklardı, yaratacaktı, üretecekti -->
@@ -79,14 +78,13 @@
     <feat name="PronType" value="Int" upos="ADV,DET,PRON,PROPN">34</feat><!-- ne, nasıl, kim, hangi, hangisinin, nerede, Kim'in, kaç, neler, nereye -->
     <feat name="PronType" value="Rcp" upos="PRON">4</feat><!-- birbirine, birbirinden, birbiriyle -->
     <feat name="Reflex" value="Yes" upos="PRON">38</feat><!-- kendi, kendisini, kendisi, kendinden, kendini, kendisinin, kendisine, kendisiyle -->
-    <feat name="Tense" value="Aor" upos="ADV,VERB">9</feat><!-- ederken, gelir, akarken, farklılaşır, görünürken, umarım, çekerken -->
     <feat name="Tense" value="Fut" upos="ADJ,ADV,AUX,NOUN,VERB">160</feat><!-- olmak, etmek, yapmak, olacak, izlemek, görmek, olacaktır, oluşturmak, alacak, almak -->
     <feat name="Tense" value="Past" upos="ADJ,AUX,NOUN,PUNCT,VERB">753</feat><!-- dedi, oldu, etti, başladı, söyledi, ydı, çıktı, edildi, ydi, verdi -->
     <feat name="Tense" value="Pqp" upos="AUX,VERB">36</feat><!-- olmuştu, demişti, etmişti, girmişti, kalmıştı, kullanılmıştı, unutulmuştu, vermişti, açmıştı, başlamıştı -->
-    <feat name="Tense" value="Pres" upos="ADJ,ADP,ADV,AUX,NOUN,PROPN,VERB">974</feat><!-- dir, dır, değil, olsa, ediyor, tir, büyüme, değildir, inanılmaz, olmasına -->
+    <feat name="Tense" value="Pres" upos="ADJ,ADP,ADV,AUX,NOUN,PROPN,VERB">983</feat><!-- dir, dır, değil, olsa, ediyor, tir, büyüme, değildir, inanılmaz, olmasına -->
     <feat name="VerbForm" value="Conv" upos="ADV,AUX,NOUN,VERB">24</feat><!-- olmadan, yken, ederken, ken, akarken, bulunmadan, durmadan, düşünmeden, etkilenmeden, etmeden -->
-    <feat name="VerbForm" value="Part" upos="ADJ,NOUN,VERB">14</feat><!-- gerçekleşen, gerçekleştirilen, bayağılaştırdıklarını, edilen, evcilleştirilenleştirilen, gerçekleştiren, gerçekleştiği, gerçekleştiğinde, sertleşen, sorgulayacakları -->
-    <feat name="VerbForm" value="Vnoun" upos="ADJ,AUX,NOUN,VERB">465</feat><!-- büyüme, olmasına, savunma, edilmesi, soruşturma, çalışma, çıkmaya, etmeye, alma, etmesi -->
+    <feat name="VerbForm" value="Part" upos="ADJ,NOUN,VERB">15</feat><!-- gerçekleşen, gerçekleştirilen, bayağılaştırdıklarını, edilen, evcilleştirilenleştirilen, gerçekleştiren, gerçekleştiği, gerçekleştiğinde, kalma, sertleşen -->
+    <feat name="VerbForm" value="Vnoun" upos="AUX,NOUN,VERB">464</feat><!-- büyüme, olmasına, savunma, edilmesi, soruşturma, çalışma, çıkmaya, etmeye, alma, etmesi -->
     <feat name="Voice" value="Cau" upos="ADJ,AUX,NOUN,VERB">86</feat><!-- geçirdi, anlatır, belirtti, çıkardı, başlattı, değiştirdi, geliştirdi, adlandırdı, adlandırmışlardır, anlatıyor -->
     <feat name="Voice" value="CauPass" upos="ADJ,NOUN,VERB">29</feat><!-- gerçekleştirilen, adlandırılır, başlatıldı, bildirildi, bitirildi, değerlendirilmektedir, değiştirildi, durdurulamazdı, durduruldu, etkinleştirilecek -->
     <feat name="Voice" value="Pass" upos="ADJ,ADV,NOUN,VERB">247</feat><!-- edildi, edilmiştir, inanılmaz, edilmesi, edilmiş, yapıldı, görülür, alınmasının, bölünmüştür, edilemez -->

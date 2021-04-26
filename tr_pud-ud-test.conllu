@@ -530,7 +530,7 @@
 5	hapse	haps	NOUN	NN	Case=Dat|Number=Sing	0	root	_	_
 6	gireceğim	gir	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut	5	compound	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
-8	umarım	um	VERB	VB	Number=Sing|Person=1|Tense=Aor	5	conj	_	_
+8	umarım	um	VERB	VB	Aspect=Hab|Number=Sing|Person=1|Tense=Pres	5	conj	_	_
 9	buna	bu	PRON	PRD	Case=Dat|Number=Sing|Polarity=Pos	10	obl	_	_
 10	değmiştir	değmiş	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past	8	ccomp	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	8	punct	_	_
@@ -647,7 +647,7 @@
 16	olduğunda	ol	AUX	VN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	15	cop	_	_
 17	belirgin	belirgin	ADJ	JJ	Number=Sing	18	amod	_	_
 18	hale	hal	NOUN	NN	Case=Dat|Number=Sing	19	obl	_	_
-19	gelir	gel	VERB	VB	Person=3|Person[psor]=3|Tense=Aor	0	root	_	SpaceAfter=No
+19	gelir	gel	VERB	VB	Aspect=Hab|Person=3|Person[psor]=3|Tense=Pres	0	root	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = n01015036
@@ -9467,7 +9467,7 @@
 1	Ülkenin	ülke	NOUN	NN	Case=Gen|Number=Sing	3	nmod:poss	_	_
 2	batı	batı	NOUN	NN	Number=Sing	3	nmod:poss	_	_
 3	kısmından	kısm	NOUN	NN	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
-4	farklılaşır	farklılaşır	VERB	VB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Aor	0	root	_	SpaceAfter=No
+4	farklılaşır	farklılaşır	VERB	VB	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	;	;	PUNCT	,	_	11	punct	_	_
 6	çünkü	çünkü	ADV	RB	_	11	cc	_	_
 7	belirgin	belirgin	ADJ	JJ	Number=Sing	9	amod	_	_
@@ -9714,7 +9714,7 @@
 12	Avrupa	Avrupa	PROPN	PROPN	Number=Sing	13	nmod:poss	_	Proper=True
 13	nehirleri	nehir	NOUN	NN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	1	appos	_	_
 14	İsviçre'den	İsviçre	PROPN	PROPN	Case=Abl|Number=Sing	15	obl	_	Proper=True
-15	gelir	gel	VERB	VB	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Tense=Aor	0	root	_	_
+15	gelir	gel	VERB	VB	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 16	ve	ve	CCONJ	CCONJ	_	35	cc	_	_
 17	bunların	bu	PRON	PRD	Case=Gen|Number=Plur|Polarity=Pos	18	nmod:poss	_	_
 18	hepsinin	hepsi	PRON	PRI	Case=Gen|Number=Sing|Polarity=Pos	20	nmod:poss	_	_
@@ -9723,7 +9723,7 @@
 21	bulunup	bulun	ADV	CRB	Polarity=Pos	24	advcl	_	_
 22	komşu	komşu	NOUN	NN	Number=Sing	23	amod	_	_
 23	ülkelere	ülke	NOUN	NN	Case=Dat|Number=Plur	24	obl	_	_
-24	akarken	ak	ADV	CRB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Conv	35	advcl	_	_
+24	akarken	ak	ADV	CRB	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Conv	35	advcl	_	_
 25	nihayet	nihayet	NOUN	NN	Number=Sing	35	obl	_	_
 26	Kuzey	kuzey	NOUN	NN	Number=Sing	35	iobj	_	Proper=True
 27	Denizi	deniz	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	26	flat	_	Proper=True|SpaceAfter=No
@@ -11424,7 +11424,7 @@
 10	Çin	Çin	PROPN	PROPN	Number=Sing	11	nmod:poss	_	Proper=True
 11	elçisini	elçi	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obj	_	_
 12	manipüle	manipül	ADJ	JJ	Number=Sing	23	advcl	_	_
-13	ederken	et	ADV	CRB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Conv	12	compound:lvc	_	SpaceAfter=No
+13	ederken	et	ADV	CRB	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Conv	12	compound:lvc	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	12	punct	_	_
 15	sınırlarını	sınır	NOUN	NN	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	18	obj	_	_
 16	güneye	güne	NOUN	NN	Case=Dat|Number=Sing	18	obl	_	_
@@ -11497,7 +11497,7 @@
 9	direkt	direkt	ADV	RB	_	10	advmod	_	_
 10	dilemiş	dile	ADJ	VJ	Number=Sing|Polarity=Pos	12	advcl	_	_
 11	gibi	gibi	ADP	IN	_	10	case	_	_
-12	görünürken	_	ADV	CRB	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Conv|Voice=Pass	16	advcl	_	_
+12	görünürken	_	ADV	CRB	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Conv|Voice=Pass	16	advcl	_	_
 13	emirleri	emir	NOUN	NN	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	16	nsubj	_	_
 14	oldukça	ol	ADV	RB	_	16	advmod	_	_
 15	belirsiz	belirsiz	ADJ	JJ	Number=Sing	16	xcomp	_	_
@@ -11527,7 +11527,7 @@
 7	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	8	det	_	_
 8	şekilde	şekil	NOUN	NN	Case=Loc|Number=Sing	9	obl	_	_
 9	temsil	temsil	NOUN	NN	Number=Sing	17	advcl	_	_
-10	ederken	et	ADV	CRB	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Conv	9	compound:lvc	_	_
+10	ederken	et	ADV	CRB	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Conv	9	compound:lvc	_	_
 11	bunlar	bu	PRON	PRD	Case=Nom|Number=Plur|Polarity=Pos	17	nsubj	_	_
 12	ritüelleri	ritüel	NOUN	NN	Case=Acc|Number=Plur	17	obj	_	_
 13	ve	ve	CCONJ	CCONJ	_	14	cc	_	_
@@ -14177,7 +14177,7 @@
 3	1979'da	1979	NOUN	NN	Case=Loc|Number=Sing	6	obl	_	_
 4	That	That	X	FW	_	6	obj	_	Proper=True
 5	Summer'ı	Summer	PROPN	PROPN	Case=Acc|Number=Sing	4	flat	_	Proper=True
-6	çekerken	çek	ADV	CRB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Conv	10	advcl	_	_
+6	çekerken	çek	ADV	CRB	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Conv	10	advcl	_	_
 7	karısı	karı	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obj	_	_
 8	Elaine	Ela	PROPN	PROPN	Number=Sing	7	appos	_	Proper=True
 9	ile	ile	ADP	IN	_	8	case	_	_

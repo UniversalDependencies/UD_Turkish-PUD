@@ -39,6 +39,8 @@ employ ten-fold cross-validation.
   * Removed relation subtype det:predet, it is not relevant for Turkish.
   * VerbForm=Ger changed to VerbForm=Vnoun, which is used in other Turkish treebanks.
   * Register=Form changed to Polite=Form, following the UD guidelines.
+  * Tense=Aor is undocumented and controversial (see https://github.com/UniversalDependencies/docs/issues/773);
+    tentatively replaced with Aspect=Hab|Tense=Pres.
 * 2020-02-28
   * Fixed malformed dependency relations including appos, flat, and conj.
   * Fixed issues with regards to items değil and mi. They are encoded with the dependency aux.

@@ -11675,7 +11675,7 @@
 1	M.Ö.	M.ö.	NOUN	NN	Number=Sing	2	amod	_	_
 2	14.	14	NUM	CD	Number=Sing|NumType=Ord	3	amod	_	_
 3	yüzyıldan	yüzyıl	NOUN	NN	Case=Abl|Number=Sing	4	obl	_	_
-4	kalma	kal	ADJ	VJ	Aspect=Perf|Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Vnoun	7	acl	_	_
+4	kalma	kal	ADJ	VJ	Aspect=Perf|Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Part	7	acl	_	_
 5	Tell	Tell	PROPN	PROPN	Number=Sing	7	nmod:poss	_	Proper=True
 6	Amarna	Amarna	PROPN	PROPN	Number=Sing	5	flat	_	Proper=True
 7	mektuplarında	mektup	NOUN	NN	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=3	17	obl	_	_

@@ -1,10 +1,10 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Turkish-PUD:
-commit 7133c0a59db85cef7e53561a6f02e02a0d4ab480
-Merge: 2e602eb 0d79a02
+commit b28bfae3482ae88580189186f9a3cb32e9835640
+Merge: e9e6902 76529a5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 16882 of 16882 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.65249593112306.
@@ -15,11 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.4.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 12722 out of 16882 total words have one or more features.
+Features: 12555 out of 16882 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 2370 bugs.
+Udapi:
+               TOTAL       2376
+Udapi: found 2376 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 16882 words.
 Genres: found 2 out of 17 known.
 validate.py --lang tr --max-err=10 UD_Turkish-PUD/tr_pud-ud-test.conllu

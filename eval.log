@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 6 20:16:19 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Turkish-PUD:
-commit b28bfae3482ae88580189186f9a3cb32e9835640
-Merge: e9e6902 76529a5
+commit 525a1b03b141915df2df44af8c5c7b7224a99198
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Thu May 13 10:01:28 2021 +0200
 Size: counted 16882 of 16882 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.65249593112306.
 Size: maximum value 13.815511 is for 1000000 words or more.

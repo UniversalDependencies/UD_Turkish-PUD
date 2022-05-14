@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Turkish-PUD:
-commit 525a1b03b141915df2df44af8c5c7b7224a99198
+commit 6e45402a7b1c34c1dda5c54f3cb8e33217cc3fb5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 10:01:28 2021 +0200
+Date:   Wed Nov 3 17:07:03 2021 +0100
 Size: counted 16882 of 16882 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.65249593112306.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,8 +25,12 @@ Udapi: found 2376 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 16882 words.
 Genres: found 2 out of 17 known.
 validate.py --lang tr --max-err=10 UD_Turkish-PUD/tr_pud-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 19215 Sent w02007008 Node 4]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 19216 Sent w02007008 Node 5]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+Morpho errors: 2
+*** FAILED *** with 2 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
@@ -35,6 +39,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.353303932512912) * (availability=1) * (validity=1) = 0.353303932512912
-STARS = 2
-UD_Turkish-PUD	0.353303932512912	2
+(TOTAL score=0.353303932512912) * (availability=1) * (validity=0.01) = 0.00353303932512912
+STARS = 0
+UD_Turkish-PUD	0.00353303932512912	0

@@ -3861,10 +3861,10 @@
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	seçmenlerin	seçmen	NOUN	NN	Case=Gen|Number=Plur	6	nmod:poss	_	_
 5	yüzde	yüz	NOUN	NN	Case=Loc|Number=Sing	6	nmod:poss	_	_
-6	62'si	62	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	13	nsubj	_	_
+6	62'si	62	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	_
 7	AB'den	AB'	PROPN	PROPN	Case=Abl|Number=Sing	8	obl	_	Proper=True
 8	ayrılmayı	ayrılma	VERB	VN	Aspect=Perf|Case=Acc|Mood=Ind|Tense=Pres|VerbForm=Vnoun	9	xcomp	_	_
-9	destekleyen	destekle	ADJ	VJ	Number=Sing|Polarity=Pos	13	acl	_	_
+9	destekleyen	destekle	VERB	VJ	Mood=Ind|Tense=Pres|VerbForm=Part	13	acl	_	_
 10	Kuzey	kuzey	NOUN	NN	Number=Sing	13	nmod:poss	_	Proper=True
 11	Kesteven	Kesteven	PROPN	PROPN	Number=Sing	10	flat	_	Proper=True
 12	konsey	konsey	NOUN	NN	Number=Sing	13	nmod:poss	_	_
@@ -12177,7 +12177,7 @@
 9	olan	ol	AUX	VJ	Number=Sing|Polarity=Pos	8	cop	_	_
 10	yeni	yeni	ADJ	JJ	Number=Sing	12	amod	_	_
 11	bir	bir	DET	DT	Definite=Ind|Polarity=Pos	12	det	_	_
-12	bölünme	bölü	VERB	VN	Aspect=Perf|Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Vnoun	13	csubj	_	_
+12	bölünme	bölü	VERB	VN	Aspect=Perf|Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Vnoun	13	obj	_	_
 13	uygulamıştır	uygulamış	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	13	punct	_	_
 
@@ -19207,19 +19207,18 @@
 
 # newdoc id = w02007
 # sent_id = w02007008
-# text = Bu olay esnasında gerçekleşen lerin zamanlaması ve sıralaması çok tartışıldı.
+# text = Bu olay esnasında gerçekleşenlerin zamanlaması ve sıralaması çok tartışıldı.
 # text_en = Both the time and the sequence of events of this incident were vigorously discussed.
 1	Bu	bu	DET	DT	Definite=Def|Polarity=Pos	2	det	_	_
 2	olay	olay	NOUN	NN	Number=Sing	3	nmod:poss	_	_
 3	esnasında	esnas	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
-4	gerçekleşen	gerçekleş	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Part	6	nmod:poss	_	_
-5	lerin	_	X	GW	Case=Gen|Number=Plur|Person=3	4	goeswith	_	_
-6	zamanlaması	zamanla	NOUN	VN	Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	10	nsubj	_	_
-7	ve	ve	CCONJ	CCONJ	_	8	cc	_	_
-8	sıralaması	sırala	VERB	VN	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Vnoun	6	conj	_	_
-9	çok	çok	ADV	RB	_	10	advmod	_	_
-10	tartışıldı	tartış	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	10	punct	_	_
+4	gerçekleşenlerin	gerçekleş	VERB	VB	Aspect=Perf|Case=Gen|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Part	5	nmod:poss	_	_
+5	zamanlaması	zamanla	NOUN	VN	Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	9	nsubj	_	_
+6	ve	ve	CCONJ	CCONJ	_	7	cc	_	_
+7	sıralaması	sırala	VERB	VN	Aspect=Perf|Case=Nom|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Vnoun	5	conj	_	_
+8	çok	çok	ADV	RB	_	9	advmod	_	_
+9	tartışıldı	tartış	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = w02007032
 # text = Nisan 2012'de Türkiye Büyük Millet Meclisi Başkanı Erdoğan, hükümetinin Boğaz'a paralel bir İstanbul Kanalı inşa ederek bölgeyi karadan ayırma planını duyurdu.

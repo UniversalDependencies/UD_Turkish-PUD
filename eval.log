@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Turkish-PUD:
-commit 97d361dbf2241aeabaa93d5177bca4a738c7a31f
+commit 96b5b3b7027c0cc65caddfe0aa58f6dbef16119a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 13:10:33 2023 +0100
+Date:   Sun May 5 13:36:25 2024 +0200
 Size: counted 16881 of 16881 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.6523774582385.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,6 +25,16 @@ Udapi: found 2374 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 16881 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-PUD/tr_pud-ud-test.conllu
+[Line 439 Sent n01009054 Node 4]: [L3 Warning leaf-clf] 'clf' not expected to have children (4:adet:clf --> 3:Bir:nummod)
+[Line 6064 Sent n01111021 Node 6]: [L3 Warning leaf-clf] 'clf' not expected to have children (6:Sterlin:clf --> 5:milyar:nummod)
+[Line 6404 Sent n01118010 Node 8]: [L3 Warning leaf-clf] 'clf' not expected to have children (8:adet:clf --> 7:sekiz:nummod)
+[Line 6823 Sent n01128017 Node 15]: [L3 Warning leaf-clf] 'clf' not expected to have children (15:tane:clf --> 14:kaç:nummod)
+[Line 7036 Sent n01131013 Node 6]: [L3 Warning leaf-clf] 'clf' not expected to have children (6:sayıda:clf --> 5:çok:amod)
+[Line 9694 Sent w01030095 Node 12]: [L3 Warning leaf-clf] 'clf' not expected to have children (12:kilowatt:clf --> 11:2900:nummod)
+[Line 16454 Sent n02007010 Node 10]: [L3 Warning leaf-clf] 'clf' not expected to have children (10:sayıda:clf --> 9:rekor:nmod)
+[Line 16614 Sent n02027021 Node 10]: [L3 Warning leaf-clf] 'clf' not expected to have children (10:dizi:clf --> 9:bir:nummod)
+[Line 20689 Sent w04006065 Node 6]: [L3 Warning leaf-clf] 'clf' not expected to have children (6:avuç:clf --> 5:bir:det)
+Warnings: 9
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615

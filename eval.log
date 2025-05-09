@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Turkish-PUD:
-commit 96b5b3b7027c0cc65caddfe0aa58f6dbef16119a
+commit b4779b95f532d40c7f4bced55899a86f4a943435
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:36:25 2024 +0200
+Date:   Mon Nov 11 16:46:06 2024 +0100
 Size: counted 16881 of 16881 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.6523774582385.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,31 +20,44 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       2374
-Udapi: found 2374 bugs.
+               TOTAL       2369
+Udapi: found 2369 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 16881 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-PUD/tr_pud-ud-test.conllu
-[Line 439 Sent n01009054 Node 4]: [L3 Warning leaf-clf] 'clf' not expected to have children (4:adet:clf --> 3:Bir:nummod)
-[Line 6064 Sent n01111021 Node 6]: [L3 Warning leaf-clf] 'clf' not expected to have children (6:Sterlin:clf --> 5:milyar:nummod)
-[Line 6404 Sent n01118010 Node 8]: [L3 Warning leaf-clf] 'clf' not expected to have children (8:adet:clf --> 7:sekiz:nummod)
-[Line 6823 Sent n01128017 Node 15]: [L3 Warning leaf-clf] 'clf' not expected to have children (15:tane:clf --> 14:kaç:nummod)
-[Line 7036 Sent n01131013 Node 6]: [L3 Warning leaf-clf] 'clf' not expected to have children (6:sayıda:clf --> 5:çok:amod)
-[Line 9694 Sent w01030095 Node 12]: [L3 Warning leaf-clf] 'clf' not expected to have children (12:kilowatt:clf --> 11:2900:nummod)
-[Line 16454 Sent n02007010 Node 10]: [L3 Warning leaf-clf] 'clf' not expected to have children (10:sayıda:clf --> 9:rekor:nmod)
-[Line 16614 Sent n02027021 Node 10]: [L3 Warning leaf-clf] 'clf' not expected to have children (10:dizi:clf --> 9:bir:nummod)
-[Line 20689 Sent w04006065 Node 6]: [L3 Warning leaf-clf] 'clf' not expected to have children (6:avuç:clf --> 5:bir:det)
-Warnings: 9
-*** PASSED ***
-Validity: 1
+[Line 439 Sent n01009054 Node 4]: [L3 Syntax leaf-clf] 'clf' not expected to have children (4:adet:clf --> 3:Bir:nummod)
+[Line 1504 Sent n01028022 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Neyse ki' does not have the 'ExtPos' feature
+[Line 4330 Sent n01078025 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Tabii ki' does not have the 'ExtPos' feature
+[Line 6064 Sent n01111021 Node 6]: [L3 Syntax leaf-clf] 'clf' not expected to have children (6:Sterlin:clf --> 5:milyar:nummod)
+[Line 6404 Sent n01118010 Node 8]: [L3 Syntax leaf-clf] 'clf' not expected to have children (8:adet:clf --> 7:sekiz:nummod)
+[Line 6725 Sent n01125030 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Tabii ki' does not have the 'ExtPos' feature
+[Line 6823 Sent n01128017 Node 15]: [L3 Syntax leaf-clf] 'clf' not expected to have children (15:tane:clf --> 14:kaç:nummod)
+[Line 7036 Sent n01131013 Node 6]: [L3 Syntax leaf-clf] 'clf' not expected to have children (6:sayıda:clf --> 5:çok:amod)
+[Line 7687 Sent n01144023 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'Belli ki' does not have the 'ExtPos' feature
+[Line 8733 Sent w01013102 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'hem de' does not have the 'ExtPos' feature
+[Line 9694 Sent w01030095 Node 12]: [L3 Syntax leaf-clf] 'clf' not expected to have children (12:kilowatt:clf --> 11:2900:nummod)
+[Line 10906 Sent w01050070 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'hem de' does not have the 'ExtPos' feature
+[Line 10914 Sent w01050070 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 've de' does not have the 'ExtPos' feature
+[Line 11186 Sent w01053067 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 11285 Sent w01057041 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 13347 Sent w01095093 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'hem de' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 16454 Sent n02007010 Node 10]: [L3 Syntax leaf-clf] 'clf' not expected to have children (10:sayıda:clf --> 9:rekor:nmod)
+[Line 16614 Sent n02027021 Node 10]: [L3 Syntax leaf-clf] 'clf' not expected to have children (10:dizi:clf --> 9:bir:nummod)
+[Line 20689 Sent w04006065 Node 6]: [L3 Syntax leaf-clf] 'clf' not expected to have children (6:avuç:clf --> 5:bir:det)
+Syntax errors: 9
+Warnings: 17
+*** FAILED *** with 9 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
 (weight=0.256410256410256) * (score{size}=0.409132723291218) = 0.104905826484928
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.351222731625362) * (availability=1) * (validity=1) = 0.351222731625362
-STARS = 2
-UD_Turkish-PUD	0.351222731625362	2
+(TOTAL score=0.350719966416715) * (availability=1) * (validity=0.01) = 0.00350719966416715
+STARS = 0
+UD_Turkish-PUD	0.00350719966416715	0

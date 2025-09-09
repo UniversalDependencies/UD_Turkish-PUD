@@ -45,7 +45,7 @@ employ ten-fold cross-validation.
   * Fixed malformed dependency relations including appos, flat, and conj.
   * Fixed issues with regards to items değil and mi. They are encoded with the dependency aux.
   * Fixed outdated morphological features.
-* 2019-08-03 
+* 2019-08-03
   * Re-annotated by a team of from [TABILAB](http://http://tabilab.cmpe.boun.edu.tr/). The information with regards to their annotation can be found in [their LAW XIII paper](https://www.aclweb.org/anthology/W19-4019.pdf).
 * 2018-04-15 v2.2
   * Added lemmas predicted by UDPipe 1.2, trained on UD Turkish 2.0
@@ -63,7 +63,7 @@ employ ten-fold cross-validation.
 Data available since: UD v2.1
 License: CC BY-SA 3.0
 Includes text: yes
-Parallel: no
+Parallel: pud
 Genre: news wiki
 Lemmas: automatic
 UPOS: converted from manual

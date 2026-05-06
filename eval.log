@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Turkish-PUD:
-commit a553fb4b173ff199f7c6305254221a0a005fb5d4
-Merge: fffb81b 4817a5e
+commit 2b320af5f46966037fc8b0d34fe74c9e7726c1ca
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:57:50 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'tr_pud'
 Language code (from CoNLL-U file name) = 'tr'
@@ -25,31 +25,42 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-PUD/tr_pud-ud-test.conllu
-[Line 23 Sent n01001011]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 43 Sent n01001013]: [L3 Warning pron-det-without-prontype] The word 'Bu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 95 Sent n01002017]: [L3 Warning obl-should-be-nmod] The parent (node [29] 'girişini') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 114 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word 'Size' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 121 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word 'sizin' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 192 Sent n01003010]: [L3 Warning pron-det-without-prontype] The word 'diğer' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 246 Sent n01004009]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 253 Sent n01004009]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 276 Sent n01004017]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 327 Sent n01005024]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 459 Sent n01009054]: [L3 Syntax leaf-clf] 'clf' not expected to have children (4:adet:clf --> 3:Bir:nummod)
-[Line 6338 Sent n01111021]: [L3 Syntax leaf-clf] 'clf' not expected to have children (6:Sterlin:clf --> 5:milyar:nummod)
-[Line 6696 Sent n01118010]: [L3 Syntax leaf-clf] 'clf' not expected to have children (8:adet:clf --> 7:sekiz:nummod)
-[Line 7136 Sent n01128017]: [L3 Syntax leaf-clf] 'clf' not expected to have children (15:tane:clf --> 14:kaç:nummod)
-[Line 7360 Sent n01131013]: [L3 Syntax leaf-clf] 'clf' not expected to have children (6:sayıda:clf --> 5:çok:amod)
-[Line 10142 Sent w01030095]: [L3 Syntax leaf-clf] 'clf' not expected to have children (12:kilowatt:clf --> 11:2900:nummod)
-[Line 11637 Sent w01053045]: [L3 Syntax too-many-objects] Multiple direct objects [7, 12] ('din', 'yıl') under the predicate 'değiştirmesinden'.
-[Line 16173 Sent w01135037]: [L3 Syntax too-many-objects] Multiple direct objects [11, 16] ('Five', 'başrol') under the predicate 'oynadı'.
-[Line 17208 Sent n02007010]: [L3 Syntax leaf-clf] 'clf' not expected to have children (10:sayıda:clf --> 9:rekor:nmod)
-[Line 17377 Sent n02027021]: [L3 Syntax leaf-clf] 'clf' not expected to have children (10:dizi:clf --> 9:bir:nummod)
-...suppressing further errors regarding Syntax
-Syntax errors: 11
-Warnings: 1035
-*** FAILED *** with 11 errors
+[Line 23 Sent n01001011]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 43 Sent n01001013]: [L3 WARNING pron-det-without-prontype] The word 'Bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 95 Sent n01002017]: [L3 SYNTAX obl-should-be-nmod] The parent (node [29] 'girişini') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 114 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'Size' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 121 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'sizin' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 192 Sent n01003010]: [L3 WARNING pron-det-without-prontype] The word 'diğer' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 246 Sent n01004009]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 253 Sent n01004009]: [L3 WARNING pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 276 Sent n01004017]: [L3 WARNING pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 327 Sent n01005024]: [L3 WARNING pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 377 Sent n01007012]: [L3 WARNING pron-det-without-prontype] The word 'Bu' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 459 Sent n01009054]: [L3 SYNTAX leaf-clf] 'clf' not expected to have children (4:adet:clf --> 3:Bir:nummod)
+[Line 702 Sent n01015036]: [L3 SYNTAX obl-should-be-nmod] The parent (node [17] 'kıyasla') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 851 Sent n01017010]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'talep') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1572 Sent n01028022]: [L3 WARNING fixed-without-extpos] Fixed expression 'Neyse ki' does not have the 'ExtPos' feature
+[Line 1574 Sent n01028022]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'birisi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2260 Sent n01038021]: [L3 SYNTAX obl-should-be-nmod] The parent (node [20] 'salınımları') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2369 Sent n01039039]: [L3 SYNTAX obl-should-be-nmod] The parent (node [14] 'defa') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2787 Sent n01046003]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'fazlasını') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2906 Sent n01049022]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'Dietrich') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3596 Sent n01060069]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'yere') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 4521 Sent n01078025]: [L3 WARNING fixed-without-extpos] Fixed expression 'Tabii ki' does not have the 'ExtPos' feature
+[Line 7034 Sent n01125030]: [L3 WARNING fixed-without-extpos] Fixed expression 'Tabii ki' does not have the 'ExtPos' feature
+[Line 8042 Sent n01144023]: [L3 WARNING fixed-without-extpos] Fixed expression 'Belli ki' does not have the 'ExtPos' feature
+[Line 9140 Sent w01013102]: [L3 WARNING fixed-without-extpos] Fixed expression 'hem de' does not have the 'ExtPos' feature
+[Line 11410 Sent w01050070]: [L3 WARNING fixed-without-extpos] Fixed expression 'hem de' does not have the 'ExtPos' feature
+[Line 11418 Sent w01050070]: [L3 WARNING fixed-without-extpos] Fixed expression 've de' does not have the 'ExtPos' feature
+[Line 11701 Sent w01053067]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 11805 Sent w01057041]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 13961 Sent w01095093]: [L3 WARNING fixed-without-extpos] Fixed expression 'hem de' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 983
+SYNTAX errors: 60
+*** FAILED *** with 60 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
